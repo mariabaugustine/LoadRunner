@@ -1,0 +1,11 @@
+[t30]
+FileName1=t30.htm
+URL1=https://www.google.com/gen_204?atyp=csi&ei=1rTAZZiLJqiQ4-EP4YCUqAM&s=web&nt=navigate&t=fi&st=5615&fid=1&zx=1707127469527&opi=89978449
+Total=1
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t30_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_30.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

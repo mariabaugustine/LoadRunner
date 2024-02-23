@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Mon, 05 Feb 2024 10:21:19 GMT
+Content-Type: application/json
+Content-Length: 68
+Connection: keep-alive
+Pragma: no-cache
+Expires: -1
+Cache-Control: no-cache
+Accept-CH: Sec-CH-UA,Sec-CH-Save-Data,Sec-CH-DPR,Sec-CH-Width,Sec-CH-Viewport-Width,Sec-CH-Viewport-Height,Sec-CH-Device-Memory,Sec-CH-RTT,Sec-CH-Downlink,Sec-CH-ECT,Sec-CH-Prefers-Color-Scheme,Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version,Sec-CH-UA-WoW64,Sec-CH-Prefers-Reduced-Motion,Sec-CH-Prefers-Reduced-Transparency,Sec-CH-Prefers-Contrast,Sec-CH-Forced-Colors,Sec-CH-UA-Mobile
+Access-Control-Allow-Origin: https://www.java.com
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000
+

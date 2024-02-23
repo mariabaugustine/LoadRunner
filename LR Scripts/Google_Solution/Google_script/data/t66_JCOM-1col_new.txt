@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preload" href="_scs_theme_root_/assets/css/oldcss.css" as="style">
+  <link rel="preload" href="_scs_theme_root_/assets/css/screen.css" as="style">
+  <link rel="preload" href="_scs_theme_root_/assets/js/promise-polyfill.min.js" as="script">
+  <link rel="preload" href="_scs_theme_root_/assets/js/setupLibs.js" as="script">
+  <link rel="preload" href="_scs_theme_root_/assets/js/theme.min.js" as="script">
+  <link rel="preload" href="_scs_theme_root_/assets/js/theme.deferred.min.js" as="script">
+  <link rel="stylesheet" href="_scs_theme_root_/assets/css/oldcss.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="_scs_theme_root_/assets/css/screen.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="_scs_theme_root_/assets/css/print.css" type="text/css" media="print" charset="utf-8">
+
+  <!--Redwood Styles-->
+  <link rel="preload" href="https://www.oracle.com/asset/web/css/redwood-base.css" as="style">
+  <link rel="preload" href="https://www.oracle.com/asset/web/css/redwood-styles.css" as="style">
+  <link rel="preload" href="_scs_theme_root_/assets/css/jcom_redwood.css" as="style">
+
+  <script type="text/javascript" src="_scs_theme_root_/assets/js/promise-polyfill.min.js"></script>
+  <script type="text/javascript" src="_scs_theme_root_/assets/js/setupLibs.js"></script>
+  <script type="text/javascript" src="_scs_theme_root_/assets/js/theme.min.js"></script>
+  <script type="text/javascript">
+		try{oracle.truste.api.getConsentDecision().consentDecision;oracle.truste.api.getConsentDecision().source}catch(err){var oracle=oracle||{};oracle.truste={};oracle.truste.api={};(function(){var trusteStorageItemName="truste.eu.cookie.notice_preferences";this.getCookieName=function(){return"notice_preferences"};this.getStorageItemName=function(){return trusteStorageItemName}}).apply(oracle.truste);(function(){var trusteCommon=oracle.truste;function getCookie(cookieKey){for(var name=cookieKey+"=",cookieArray=document.cookie.split(";"),i=0;i<cookieArray.length;i++){for(var c=cookieArray[i];" "==c.charAt(0);)c=c.substring(1);if(0==c.indexOf(name))return c.substring(name.length,c.length)}return null}function getLocalStorageItem(storageKey){return"undefined"!=typeof Storage?localStorage.getItem(storageKey):null}function getTRUSTeLocalStorageValue(storageKey){var value=getLocalStorageItem(storageKey);if(null!=value){return JSON.parse(value).value}return null}this.getConsentCode=function(){var value=getTRUSTeLocalStorageValue(trusteCommon.getStorageItemName())||getCookie(trusteCommon.getCookieName());return null==value?-1:parseInt(value)+1};this.getConsentDecision=function(){var value=this.getConsentCode();if(-1==value){var text='{"consentDecision": 0, "source": "implied"}';return JSON.parse(text)}var text='{"consentDecision": '+parseInt(value)+', "source": "asserted"}';return JSON.parse(text)}}).apply(oracle.truste.api)}
+		if(oracle.truste.api.getConsentDecision().consentDecision != 1) {
+			var iTag = document.createElement("script");
+			if(location.host == "www.java.com" || location.host == "java.com")
+				iScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/java/odc.js?_ora.context=analytics:production";
+			else
+				iScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/java/odc.js?_ora.context=analytics:development";
+			iTag.src = iScript;
+			iTag.async = true;
+			iTag.type = 'text/javascript';
+			document.head.appendChild(iTag);
+		}
+	</script>
+  <!--$SCS_RENDER_INFO-->
+  <!--$SCS_SITE_HEADER-->
+  <!--$SCS_PAGE_HEADER-->
+
+  <!--Redwood Styles-->
+  <link data-wscss href="https://www.oracle.com/asset/web/css/redwood-base.css" rel="stylesheet">
+  <link data-wscss href="https://www.oracle.com/asset/web/css/redwood-styles.css" rel="stylesheet">
+  <link data-wscss href="_scs_theme_root_/assets/css/jcom_redwood.css" rel="stylesheet">
+
+</head>
+
+<body class="f20 f20v0 ready">
+
+  <div class="f11w1">
+
+    <!-- Redwood Header -->
+    <header id="header-slot" class="scs-slot" data-allowed-items='["JCOM-Header","JCOM-Header-GlobalNav"]'>
+    </header>
+
+    <a id="maincontent"></a><!-- Constrained width main content slots. Repeats with 1-2-3-4 slots per row for 40 rows -->
+
+    <!-- Redwood Body -->
+    <div class="f20w1">
+
+      <!-- F22v0 -->
+      <div class="f22 f22v0 cpad" data-trackas="f22" data-ocomid="f22">
+
+        <div class="f22w1 cwidth one-col-wrapper">
+          <div class="f22w2 main-content one-col">
+            <div class="">
+              <div class="jvc0w2">
+                <div id="slot-2-10" class="scs-slot scs-responsive jvc0w2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /F22v0 -->
+
+    </div>
+
+    <!-- Redwood Footer -->
+    <footer id="footer-slot" class="scs-slot"  data-allowed-items='["JCOM-Footer","JCOM-Footer-Redwood","scs-component:scs-contentitem"]'>
+    </footer>
+
+    <script type="text/javascript" data-main="/_sitescloud/renderer/renderer.js" src="/_sitescloud/renderer/require.js"></script>
+    <script type="text/javascript">
+      var assetsPath = '/_themes/[!--$SCS_THEME_NAME--]/assets/';
+    </script>
+    <script type="text/javascript" src="_scs_theme_root_/assets/js/theme.deferred.min.js"></script>
+
+    <!--$SCS_PAGE_FOOTER-->
+    <!--$SCS_SITE_FOOTER-->
+    <!-- PEO layout Microsite -->
+    <!-- Built: 2019-12-06 15:26 UTC -->
+
+  </div>
+  
+  <!-- <div class="maxWidth pageContainer">
+
+    <div class="scs-slot" id="header-slot" data-allowed-items='["JCOM-Header"]'></div>
+    
+    <a id="maincontent"></a>
+
+    <div class="jvc0 jvc0v0 clearfix">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="slot-2-10" class="scs-slot scs-responsive"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="scs-slot footer" id="footer-slot" data-allowed-items='["JCOM-Footer","scs-component:scs-contentitem"]'></footer>
+
+    
+  </div> -->
+
+</body>
+
+</html>

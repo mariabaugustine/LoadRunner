@@ -1,0 +1,13 @@
+[t52]
+FileName1=t52.html
+URL1=https://activity.wisepops.com/?v=2.1.7&site=Wkkg8FGb9u
+Total=2
+RequestHeaderFile=t52_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t52_ResponseHeader.txt
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_52.xml
+FileName2=t52_hm.html
+URL2=https://hm.baidu.com/hm.js?159b3f1b5b1c2f4f2daff198212d485c
+[ProtocolInfo]
+ProtocolId=QTWeb

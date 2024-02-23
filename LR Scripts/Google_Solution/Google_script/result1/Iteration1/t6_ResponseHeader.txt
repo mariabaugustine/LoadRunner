@@ -1,0 +1,22 @@
+HTTP/2.0 200
+Status: 200
+content-type: application/json
+accept-ranges: bytes
+content-encoding: gzip
+last-modified: Mon, 31 Oct 2022 19:52:04 GMT
+strict-transport-security: max-age=86400;includeSubDomains;preload
+x-oracle-dms-ecid: 894ff2be-fd59-491a-b58a-59d26b251ed3-000633fa
+x-oracle-dms-rid: 0
+content-length: 406
+cache-control: max-age=1296000
+date: Mon, 05 Feb 2024 10:21:51 GMT
+vary: Accept-Encoding
+server-timing: cdn-cache; desc=HIT
+server-timing: edge; dur=1
+akamai-grn: 0.6601c045.1707128511.1c3abd5
+x-content-type-options: nosniff
+x-xss-protection: 1
+set-cookie: bm_mi=A9F92ECE0D42E76BA85B95AF6759A74D~YAAQZgHARV7jtF+NAQAAEdvJeBYTCfyacBPKKJ8qZcfA6uVr6gJKgI5okkFhhYXg9aIMUFNwoplYkbVw6QK0lungY4V5zo2RAXsuqlr3t9mzdqcyXYQKqkcJ86fqcyJg2QfoG8Mqj+eYJ97R1eI4zsOWhFa3UGcQyCSYXjgwRfDvthskEV5doKpYh/7R+xFmNPByXjr0KDGmHf1/raUlP0wtfh3BZmUBF5Q7La+5mMyWfxAcQp9EmCY6i1nYe56yM10jznac8uKuj471wvj91TmCAuCLNBYmJ2j+d1N31K//Ui8YXXv8JtO4OPP+fUU=~1; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 10:21:51 GMT; Max-Age=0; Secure
+set-cookie: bm_sv=2C6B7B5B617F0A0601239410C0178324~YAAQZgHARV/jtF+NAQAAEdvJeBZb6XuU/c691vksvOZ+pt/isKA+U3wl86Iu866GE0tgyzWkvOnhEaop4R50rMADkMmTDGz30jXs1qhUzm4tIGZtqnjIa8tRhHoO4W/KP5Ini0DHRV2LLAfVAkmIFQERuQqM/KYhAXfOLjucG9fZXLAaINDIDLnuLfD+5nCvFKalqEecbcmWvCpfcl/cysDmWv8K9pOsnEtWjHh3XfUFFVKAHJuAwcAZmM8ehA==~1; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 12:21:17 GMT; Max-Age=7166; Secure
+server-timing: ak_p; desc="1707128511237_1170211174_29600725_27_11254_12_0_0";dur=1
+

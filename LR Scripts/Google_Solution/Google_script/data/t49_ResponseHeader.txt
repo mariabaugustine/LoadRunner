@@ -1,0 +1,9 @@
+HTTP/1.1 204 No Content
+Server: nginx/1.18.0 (Ubuntu)
+Date: Mon, 05 Feb 2024 10:18:00 GMT
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://www.microfocus.com
+Vary: Origin
+Request-Context: appId=cid-v1:9c7c879b-c51a-427e-9701-218438da5f81
+

@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Encoding: gzip
+ETag: "fee4593a604d0e15afd5781f0b5c1cd2f8165fff7bc85c5124b46130e0e2bca2"
+Strict-Transport-Security: max-age=86400;includeSubDomains;preload
+X-Content-Type-Options: nosniff
+X-Oracle-Dms-Ecid: 3608991d-3b39-4af3-a1c8-17c628dbb4ff-00078c9b
+X-Oracle-Dms-Rid: 0
+Content-Length: 1982
+Cache-Control: public, max-age=1296000
+Date: Mon, 05 Feb 2024 10:21:18 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Akamai-GRN: 0.2c01c045.1707128478.18e76be
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1
+Set-Cookie: bm_sv=2C6B7B5B617F0A0601239410C0178324~YAAQLAHARabHyWGNAQAAv1rJeBYaHzF1Uh/0y7xUzVNNTHPTcf/GNfB80zCoEu3s185BOSrkz/2yQLRJQEkF06cerDU6jQP2SzVmGQNtF3FRBJ549IsUhsptwMzIMcZE71+VdSP7m0+aw43y5kW4b1XEy42TIIud+/XuKo+1mg27tlOp7BaDuKNjJpYte8dwdATyhjjAJ06tQvq/ed67TybmVnY4Cb9NBfZXtwjbMbrL1UtM879Pb4chnZI3sQ==~1; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 12:21:17 GMT; Max-Age=7199; Secure
+Server-Timing: ak_p; desc="1707128478384_1170211116_26113726_21_14251_51_0_-";dur=1
+

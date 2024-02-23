@@ -1,0 +1,11 @@
+[t7]
+FileName1=t7.htm
+URL1=https://www.google.com/gen_204?atyp=csi&ei=rLTAZb3MNtW44-EPuee00Aw&s=webhp&nt=navigate&t=fi&st=37375&fid=3&zx=1707127458223&opi=89978449
+Total=1
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t34]
+FileName1=t34.htm
+URL1=https://www.google.com/gen_204?atyp=i&ei=1rTAZZiLJqiQ4-EP4YCUqAM&ct=slh&v=t1&im=M&pv=0.11075373412850165&me=138:1707127470629,B,2485:1,R,1,CFsQAg,1086,351,119,32:0,R,1,CFMQAA,835,569,370,29:3312,h,1,CBAQAA,o:0,h,1,CAgQAA,o:0,h,1,CAYQGQ,o:0,h,1,CAUQAQ,i:157,h,1,CAUQAQ,o:625,h,1,CBgQAA,i:30,h,1,CBgQAA,o:845,h,1,CBgQAA,i:62,h,1,CBgQAA,o:64,h,1,CBgQAA,i:468,h,1,CBgQAA,o:250,h,1,CBgQAA,i:251,h,1,CBgQAA,o:186,h,1,CBgQAA,i:62,h,1,CBgQAA,o:156,h,1,CBIQAA,i:23139,h,1,CBIQAA,o:8,e,B&zx=1707127500245&opi=89978449
+Total=1
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_34.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

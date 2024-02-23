@@ -1,0 +1,13 @@
+[t15]
+FileName1=t15.htm
+URL1=https://www.google.com/gen_204?s=web&t=aft&atyp=csi&ei=1rTAZZiLJqiQ4-EP4YCUqAM&rt=wsrt.177,aft.387,afti.387,aftr.312,afts.189,frts.189,frvt.189,hst.49,prt.502,sct.180&frtp=764&imn=32&ima=6&imad=6&imac=2&wh=593&aft=1&aftp=593&opi=89978449
+Total=2
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_15.xml
+FileName2=t15_ANsg4T7O-dNBZCideSRb416obEBsbw7TTiLqDsAClY1CRc4ZhwDo4JrDiTuJXRF2EJWwAM6nmqScAeBOya9VqSDP3tvbuJe8COGB-nkXeRZyQ22IWJPH.txt
+URL2=https://id.google.com/verify/ANsg4T7O-dNBZCideSRb416obEBsbw7TTiLqDsAClY1CRc4ZhwDo4JrDiTuJXRF2EJWwAM6nmqScAeBOya9VqSDP3tvbuJe8COGB-nkXeRZyQ22IWJPH
+[ProtocolInfo]
+ProtocolId=QTWeb

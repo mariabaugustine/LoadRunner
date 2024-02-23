@@ -1,0 +1,74 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.java.com",
+                "infFile": "t1.inf",
+                "time": 1707127951097
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: en_structure.json",
+                "infFile": "t2.inf",
+                "time": 1707127951179
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: 100.json",
+                "infFile": "t3.inf",
+                "time": 1707127951891
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: pixel_7fde5d22",
+                "infFile": "t4.inf",
+                "time": 1707127952267
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: items",
+                "infFile": "t5.inf",
+                "time": 1707127952339
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: caas_contenttypemap.json",
+                "infFile": "t6.inf",
+                "time": 1707127952427
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: template.html",
+                "infFile": "t7.inf",
+                "time": 1707127952482
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: layout.html",
+                "infFile": "t8.inf",
+                "time": 1707127952542
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: layout.html_2",
+                "infFile": "t9.inf",
+                "time": 1707127952639
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: layout.html_3",
+                "infFile": "t10.inf",
+                "time": 1707127952821
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: id",
+                "infFile": "t11.inf",
+                "time": 1707127954062
+            }
+        ],
+        "transactions": []
+    }
+]

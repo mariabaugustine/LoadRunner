@@ -1,0 +1,12 @@
+Start auto log messages stack.	[MsgId: MMSG-10546]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\AppData\Local\Temp\lr5tmpdircHX.180\lrcfgLFx.181\cfgwLN.182"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(16): web_url("thinking-tester-contact-list.herokuapp.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(16): Error -27794: Could not resolve address of host thinking-tester-contact-list.herokuapp.com  	[MsgId: MERR-27794]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

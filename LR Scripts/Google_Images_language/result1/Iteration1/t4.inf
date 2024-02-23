@@ -1,0 +1,26 @@
+[t4]
+FileName2=t3_8_header.jpg
+RawStepEndTime=0
+FileName5=t3_3_theme.UNK
+FileName4=t3_5_6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.UNK
+FileName7=t3_1_css.css
+FileName6=t3_2_theme.css
+RequestBodyFile=t4_RequestBody.txt
+RawStepName=json
+ContentType=application/json
+URL1=http://update.googleapis.com/service/update2/json?cup2key=13:s2uCnILltE9igX16Cb43Le7paJpU4C2B3G-nspOb-Pc&cup2hreq=c64a2bd6a8f065ce99329e6627e5d86c0e7455c828d81702b79b6a5b56c589ae
+URL2=https://katalon-demo-cura.herokuapp.com//img/header.jpg
+URL3=https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2
+ResponseHeaderFile=t4_ResponseHeader.txt
+URL4=https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2
+URL5=https://katalon-demo-cura.herokuapp.com//js/theme.js
+URL6=https://katalon-demo-cura.herokuapp.com//css/theme.css
+URL7=https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic
+SnapshotXmlFile=snapshot_10.xml
+RequestHeaderFile=t4_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1707300224848
+Total=7
+StepName=Custom Request: json
+FileName1=t4.json
+FileName3=t3_7_6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.UNK

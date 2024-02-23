@@ -1,0 +1,16 @@
+GET /_cache_cc07/_compdelivery/JCOM-Footer_Detail-Redwood/assets/layout.html HTTP/1.1
+Host: www.java.com
+Connection: keep-alive
+sec-ch-ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.java.com/en/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Cookie: AKA_A2=A; akaalb_OCE_Failover=1707128534~op=JCOM_OCE:oceProdappJcomProdOrigin|~rv=81~m=oceProdappJcomProdOrigin:0|~os=2708f36cb43ca861e42dc0215e4669c5~id=4d44549a107e7f841bf61be98404d12a; ak_bmsc=CB969FC4D1316906CEE9C26A690C9963~000000000000000000000000000000~YAAQLAHARaXHyWGNAQAAE1nJeBYiIy/NVdW6CEJCEOidaoxbBHZ3exPAc0mDJgzsAQ9NTSV8+qJgZrYWajaToKfMlsKJQyKqO0grMNTYxxpVzlLeCpz7JydbVrWMHz2qbokDLkmRVvrHjAZS7qP3UYQYDmpxqyUaZ1y9x+gEpek7yl4W1WM8+Sx/heFrfIZ1Xi4U1tHY2lgMDnVhpF5GhagVSyK0sEZHC7JpiCqYLjvdq1jsQAHHuTWH0R379dHHMts6h7VuUgtZiXD+45bzCE/5lbBLIsTSifx3c8knVOtiG9BP8WNzScj1MyjLH0NdeaSMYbY0ZRTsANpPTtg2wsSDg7sIaHBHcxt0J5oZzxKdUwU/D7u1tqDkW3VJWcf7akVC7KTwRTCh8fEVmxm0PKJ/ROksShiF35OXYI+i++0X4/cnMwx4oMt2CwX+CVLAM8rqokYbxdv7qj/5ip+aqIYAjnTAlaxxWVbf0mL81eU=; ORA_FLEX_CACHE_KEY=desktop-chrome_121-windows10-64bit; bm_sv=2C6B7B5B617F0A0601239410C0178324~YAAQLAHARanHyWGNAQAAplvJeBZ9XRyeGYmnHq2pzPgJh8o45nfMXUGYHzybB93H8PXA07fcqNb+c/JW3sebf6/O6inZ9wS3Sy7+NoZW6eXUW7fSiwTu+4G9sXr8Z+zb9UDj2zqjr0xCocOYz7foHqrdC4yer2kqBlIKzum2yP8nvoLU4rhRHFfK8D1uqH6tGTs45/jpVrudR78Goo8WWxrgMb/v72oKaLjtelOmQI96IgKl99p158hhMZ0bGQ==~1
+

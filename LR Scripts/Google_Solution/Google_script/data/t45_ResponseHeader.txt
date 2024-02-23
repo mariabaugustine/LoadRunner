@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Mon, 05 Feb 2024 10:17:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 41
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.microfocus.com
+access-control-expose-headers: 
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 1e06be6a85182a1c6b40f999d6d64123
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

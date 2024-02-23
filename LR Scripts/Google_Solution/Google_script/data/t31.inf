@@ -1,0 +1,11 @@
+[t31]
+FileName1=t31.htm
+URL1=https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.java.com/&ved=2ahUKEwiYzv-6-5OEAxUoyDgGHWEABTUQFnoECAcQAQ
+Total=1
+RequestHeaderFile=t31_RequestHeader.txt
+RequestBodyFile=t31_RequestBody.txt
+ResponseHeaderFile=t31_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_31.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

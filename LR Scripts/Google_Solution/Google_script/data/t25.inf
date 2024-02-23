@@ -1,0 +1,11 @@
+[t25]
+FileName1=t25_gen_204.htm
+URL1=https://www.google.com/gen_204?atyp=i&ct=psnt&cad=&nt=navigate&ei=1rTAZZiLJqiQ4-EP4YCUqAM&zx=1707127466711&opi=89978449
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_25.xml
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t25_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

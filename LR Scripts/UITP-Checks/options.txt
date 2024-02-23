@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR Scripts\UITP-Checks
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr scripts\uitp-checks\\logfile.log
+d:\lr scripts\uitp-checks\\combined_UITP-Checks.c
+d:\lr scripts\uitp-checks\\pre_cci.c

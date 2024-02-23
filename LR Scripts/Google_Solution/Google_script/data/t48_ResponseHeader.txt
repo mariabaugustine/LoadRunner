@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Mon, 05 Feb 2024 10:18:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 48
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.microfocus.com
+access-control-expose-headers: 
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 6d42751062bc770ff1bf484c66b79ecd
+set-cookie: site_identity=d13b37ee-8b4b-4eb9-9a5b-82e1b9d84a17; path=/; expires=Tue, 04 Feb 2025 10:18:00 GMT; max-age=31536000; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

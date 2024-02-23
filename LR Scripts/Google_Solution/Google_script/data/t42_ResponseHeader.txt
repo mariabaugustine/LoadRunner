@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=120, stale-while-revalidate=60, stale-if-error=120
+Timing-Allow-Origin: *
+Content-Length: 51
+Date: Mon, 05 Feb 2024 10:17:53 GMT
+Connection: keep-alive
+Content-Type: application/json
+

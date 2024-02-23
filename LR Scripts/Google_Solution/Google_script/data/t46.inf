@@ -1,0 +1,11 @@
+[t46]
+FileName1=t46.json
+URL1=https://wisepops.net/id?h=Wkkg8FGb9u&vid=&eid=&sid=
+Total=1
+RequestHeaderFile=t46_RequestHeader.txt
+RequestBodyFile=t46_RequestBody.txt
+ResponseHeaderFile=t46_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_46.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

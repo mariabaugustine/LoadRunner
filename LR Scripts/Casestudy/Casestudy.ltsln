@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("B8A861F0-DD1F-475A-847B-E05A47B4F63F") = "thinking_tester", "thinking_tester\thinking_tester.usr", "B8A861F0-DD1F-475A-847B-E05A47B4F63F"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExSIFNjcmlwdHNcQ2FzZXN0dWR5XHRoaW5raW5nX3Rlc3Rlclx0aGlua2luZ190ZXN0ZXIudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkQ6XExSIFNjcmlwdHNcQ2FzZXN0dWR5XHRoaW5raW5nX3Rlc3Rlclx0aGlua2luZ190ZXN0ZXIudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyNC0wMi0xMlQxNTo0Njo1OC4wOTA0NDMzKzA1OjMwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		B8A861F0-DD1F-475A-847B-E05A47B4F63F.Debug|Any CPU.Build.0 = Debug|Any CPU
+		B8A861F0-DD1F-475A-847B-E05A47B4F63F.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		B8A861F0-DD1F-475A-847B-E05A47B4F63F.Release|Any CPU.Build.0 = Release|Any CPU
+		B8A861F0-DD1F-475A-847B-E05A47B4F63F.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

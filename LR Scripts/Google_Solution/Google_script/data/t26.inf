@@ -1,0 +1,11 @@
+[t26]
+FileName1=t26.htm
+URL1=https://www.google.com/gen_204?atyp=csi&ei=2bTAZYTJGuzz4-EPzaqVqAo&s=async&astyp=vpkg&ima=0&imn=0&mem=ujhs.17,tjhs.18,jhsl.2173,dm.8&nv=ne.2,feid.2a8d8af7-6729-4cf3-a787-d417a6e9da9c&hp=&rt=ttfb.197,st.221,bs.80476,aaft.224,acrt.224,art.225&zx=1707127466761&opi=89978449
+Total=1
+RequestHeaderFile=t26_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t26_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_26.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

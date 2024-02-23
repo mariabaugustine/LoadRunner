@@ -1,0 +1,17 @@
+[t2]
+FileName1=t2.htm
+URL1=https://katalon-demo-cura.herokuapp.com/
+Total=4
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_theme.css
+URL2=https://katalon-demo-cura.herokuapp.com//css/theme.css
+FileName3=t2_theme.html
+URL3=https://katalon-demo-cura.herokuapp.com//js/theme.js
+FileName4=t2_header.jpg
+URL4=https://katalon-demo-cura.herokuapp.com//img/header.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

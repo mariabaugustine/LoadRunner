@@ -1,0 +1,11 @@
+[t68]
+FileName1=t68_items.json
+URL1=https://www.java.com/content/published/api/v1.1/items?q=((id%20eq%20%22COREEACA6644ABED46228A54322C5E14161D%22%20or%20id%20eq%20%22CORE1CE64AD7F2E944B68F223DEBB0AF616A%22%20or%20id%20eq%20%22CORE168A2AB12456492DBDEE32B47DC48D57%22)%20and%20(language%20eq%20%22en%22))&channelToken=1f7d2611846d4457b213dfc9048724dc&cb=_cache_0dfd
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_68.xml
+RequestHeaderFile=t68_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t68_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

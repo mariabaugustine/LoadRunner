@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="17" height="17">
+	<title>check mark</title>
+	<defs>
+		<image  width="17" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARBAMAAADJQ1rJAAAAAXNSR0IB2cksfwAAACFQTFRFR3BMAGb/AGb/AGb/AGb/AGb/AGb/AGb/AGb/AGb/AGb/5HOASgAAAAt0Uk5TADCk8P+QwNDgYBFZdnWpAAAAh0lEQVR4nGNgYBAycTESYAACVhezNBNXEKukk4GB06QAKOS+AMhdDhQUsQJJcLUIMKhMADI4J0xRYDAGCU3xYjZgcAMJuUxgc2BwYgxgmOLJwOTA4MbmBBRiAIoZc5WkeDIwANWpTFgOFGIA6hXp4qoEmmcigGQHQ4kl0JiWAohb1CBugbkPAHsDGflATS9JAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

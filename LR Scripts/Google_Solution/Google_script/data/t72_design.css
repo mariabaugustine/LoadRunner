@@ -1,0 +1,328 @@
+/**
+ * Copyright (c) 2019 Oracle and/or its affiliates. All rights reserved.
+ * Licensed under the Universal Permissive License v 1.0 as shown at http://oss.oracle.com/licenses/upl.
+ */
+
+ /* Temp */
+
+ /* div[class*="-100bg"], section[class*="-100bg"], div[class*="-110bg"], section[class*="-110bg"], div[class*="-120bg"], section[class*="-120bg"], div[class*="-130bg"], section[class*="-130bg"], div[class*="-140bg"], section[class*="-140bg"], div[class*="-150bg"], section[class*="-150bg"], div[class*="-160bg"], section[class*="-160bg"], div[class*="-170bg"], section[class*="-170bg"], div[class*="-180bg"], section[class*="-180bg"], div[class*="-190bg"], section[class*="-190bg"], div[class*="-200bg"], section[class*="-200bg"] {
+    color: #fff;
+}
+
+.jcom-banner{
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    background-repeat: no-repeat;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+}
+
+.rc11 {
+    overflow: hidden;
+}
+
+.rw-neutral-100bg {
+    background-color: #7A736E;
+}
+
+.cwidth {
+    clear: both;
+    width: 100%;
+    max-width: 1344px;
+    margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.rc11 .rc11w2.rc11bttns {
+    max-width: 64em;
+	box-sizing: border-box;
+}
+
+.rc11 .rc11w2 {
+    max-width: 58em;
+    padding: 0;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: none;
+    flex-flow: row nowrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+	box-sizing: border-box;
+}
+
+.jcom-banner.rc11 .rc11w2 .icn-img {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.rc11 .rc11w2 .icn-img {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.jcom-banner div.icn-img {
+    width: auto !important;
+    height: auto !important;
+}
+
+.jcom-banner div.icn-img {
+    margin: 0 auto;
+    font-size: 10rem;
+    width: 1em !important;
+    height: 1em !important;
+    line-height: 1 !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-flow: row wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.rc11 .rc11w2>* {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.jcom-banner [class^="icn-"]:before, .jcom-banner [class*=" icn-"]:before {
+    font-family: 'redwoodicons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.jcom-banner .icn-java:before {
+    content: url(./img/white-java-logo.svg);
+    height: 50px;
+    width: 50px;
+    margin-top: -5px;
+}
+
+.jcom-banner div.icn-img:before {
+    font-size: 20px !important;
+    line-height: 1.01 !important;
+    vertical-align: top;
+    display: block;
+    text-align: center;
+}
+
+p {
+    margin: 0 0 1.1em;
+    line-height: 1.4;
+}
+
+.rc11 .rc11w2>* {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+	box-sizing: border-box;
+}
+
+.rc11 .rc11w2 p {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 800;
+    margin: 0 1em 0 0;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+.rc11 .rc11w2 .obttns {
+    
+    width: 50%;
+    margin-bottom: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.obttns {
+    width: 100%;
+    font-size: 1.4rem;
+    margin-bottom: -1.6rem;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-flow: row wrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.obttns>div {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-flow: row wrap;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 1.6rem 1.6rem 0;
+	box-sizing: border-box;
+}
+
+.rc11 .rc11w2 .obttns>div {
+    margin: 0;
+}
+
+.rc11 .rc11w2.rc11bttns .obttns div:first-of-type {
+    margin-right: 0;
+}
+
+.obttns>div:last-of-type {
+    margin-right: 0 !important;
+}
+
+.obttns a, .obttns button {
+	font-size: .5em;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.2;
+    padding: 0.5rem 0.8rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    border: 0;
+    min-height: 2.2rem;
+    height: 100%;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-flow: column wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.rc11 .rc11w2 .obttns a {
+    white-space: nowrap;
+	text-decoration: none !important;
+}
+
+ .obttns a, .obttns button {
+    transition: background .2s, color .3s;
+}
+
+.darktheme div.obttn1>*, [class*="-100bg"] div.obttn1>*, [class*="-110bg"] div.obttn1>*, [class*="-120bg"] div.obttn1>*, [class*="-130bg"] div.obttn1>*, [class*="-140bg"] div.obttn1>*, [class*="-150bg"] div.obttn1>*, [class*="-160bg"] div.obttn1>*, [class*="-170bg"] div.obttn1>*, [class*="-180bg"] div.obttn1>*, [class*="-190bg"] div.obttn1>*, [class*="-200bg"] div.obttn1>* {
+    color: #fff !important;
+    background: transparent;
+}
+
+.darktheme div.obttn1>*:focus, .darktheme div.obttn1>*:hover, [class*="-100bg"] div.obttn1>*:focus, [class*="-100bg"] div.obttn1>*:hover, [class*="-110bg"] div.obttn1>*:focus, [class*="-110bg"] div.obttn1>*:hover, [class*="-120bg"] div.obttn1>*:focus, [class*="-120bg"] div.obttn1>*:hover, [class*="-130bg"] div.obttn1>*:focus, [class*="-130bg"] div.obttn1>*:hover, [class*="-140bg"] div.obttn1>*:focus, [class*="-140bg"] div.obttn1>*:hover, [class*="-150bg"] div.obttn1>*:focus, [class*="-150bg"] div.obttn1>*:hover, [class*="-160bg"] div.obttn1>*:focus, [class*="-160bg"] div.obttn1>*:hover, [class*="-170bg"] div.obttn1>*:focus, [class*="-170bg"] div.obttn1>*:hover, [class*="-180bg"] div.obttn1>*:focus, [class*="-180bg"] div.obttn1>*:hover, [class*="-190bg"] div.obttn1>*:focus, [class*="-190bg"] div.obttn1>*:hover, [class*="-200bg"] div.obttn1>*:focus, [class*="-200bg"] div.obttn1>*:hover {
+    background: #fff;
+    color: #161513 !important;
+}
+
+.darktheme div.obttn1>*:after, [class*="-100bg"] div.obttn1>*:after, [class*="-110bg"] div.obttn1>*:after, [class*="-120bg"] div.obttn1>*:after, [class*="-130bg"] div.obttn1>*:after, [class*="-140bg"] div.obttn1>*:after, [class*="-150bg"] div.obttn1>*:after, [class*="-160bg"] div.obttn1>*:after, [class*="-170bg"] div.obttn1>*:after, [class*="-180bg"] div.obttn1>*:after, [class*="-190bg"] div.obttn1>*:after, [class*="-200bg"] div.obttn1>*:after {
+    border: #fff 1px solid;
+}
+
+.obttns a:after, .obttns button:after {
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+}
+
+@media (min-width: 0) and (max-width: 1468px)
+{
+	.cwidth {
+		max-width: 1468px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+} */
+
+@media (max-height: 770px), (max-width: 1344px)
+{
+	/* html {
+		font-size: 56%;
+		-webkit-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+	} */
+
+}
+
+ /* Temp end */
+
+.JCOM-Banner-Redwood {
+	font-family: 'Helvetica Neue', 'Segoe UI', sans-serif-regular, Helvetica, Arial;
+	font-size: 16px;
+	margin:0px;
+	padding:0px;
+	font-style: normal;
+	color: #333;
+}
+
+.JCOM-Banner-Redwood li {
+	list-style: none;
+ 	font-size: 14px; 
+	font-style: normal;
+	font-variant-caps: normal;
+	color: #333;
+	font-weight: 200;
+	margin: 0em 0em 1em 0em;
+}
+
+.JCOM-Banner-Redwood img {
+	width: 100%;
+	max-width: 190px;
+	margin:0px;
+	border-radius: 3px;
+}
+
+.JCOM-Banner-Redwood h1 {
+	font-size: 24px;
+	color: #333;
+	margin:0px;
+	font-weight:300;
+}
+
+.JCOM-Banner-Redwood h2 {
+	font-size: 18px;
+	color: #767676;
+	margin:0px;
+	font-weight:300;
+}
+
+.JCOM-Banner-Redwood p {
+	margin:0px;
+}
+
+
+/* .jcom-banner .icn-java:before {
+	content: url('./img/obic-java-cup-r3.svg');
+    height: 50px;
+    width: 65px;
+    margin-top: -20px;
+} */

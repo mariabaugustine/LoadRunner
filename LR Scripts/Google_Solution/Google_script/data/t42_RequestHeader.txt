@@ -1,0 +1,16 @@
+GET /api/config.json?key=5KNJK-8UTBJ-V9LAY-HLX72-YR7DF&d=www.microfocus.com&t=5690426&v=1.720.0&if=&sl=0&si=af1a665e-a982-413b-a63f-ccaa4d1d6bb2-s8do5h&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=492776 HTTP/1.1
+Host: c.go-mpulse.net
+Connection: keep-alive
+sec-ch-ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Origin: https://www.microfocus.com
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.microfocus.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+

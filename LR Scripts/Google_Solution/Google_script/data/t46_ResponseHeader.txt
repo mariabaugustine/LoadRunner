@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Mon, 05 Feb 2024 10:17:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+access-control-allow-headers: *
+access-control-allow-methods: OPTIONS, POST, GET
+access-control-max-age: 86400
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EYvkxzraNn%2FxQj2XYRlE5l3zoiBbi%2Bt6d3%2FVspbGFKzFyulaVzpUupSuMKaWSDeIZ%2F1aDOzI7f0%2BUxQIT23p1HmPoeFzJYPGkvSVE81s36BHstgwG1gauLUT0FSjbw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 850a68241acc7e79-MAA
+Content-Encoding: br
+

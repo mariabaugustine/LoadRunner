@@ -1,0 +1,9 @@
+GET /v4/account/wh3g12c3gg/client/id HTTP/1.1
+Referer: https://www.java.com/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Accept: */*
+Connection: Keep-Alive
+Host: dc.oracleinfinity.io
+

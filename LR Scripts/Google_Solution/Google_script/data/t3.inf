@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3_gen_204.htm
+URL1=https://www.google.com/gen_204?atyp=i&ct=psnt&cad=&nt=navigate&ei=rLTAZb3MNtW44-EPuee00Aw&zx=1707127422823&opi=89978449
+Total=2
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+FileName2=t3_ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDASGQn11VQ7sgCk8RIFDWlIR0chrbMLunyG1js=.txt
+URL2=https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDASGQn11VQ7sgCk8RIFDWlIR0chrbMLunyG1js=?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

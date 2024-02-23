@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("94BEA3E2-2838-4950-BD7C-FA1A2DFC14AB") = "UITPS", "UITPS\UITPS.usr", "94BEA3E2-2838-4950-BD7C-FA1A2DFC14AB"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExSIFNjcmlwdHNcQmVzdFByYWN0aWNlc1xVSVRQU1xVSVRQUy51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RDpcTFIgU2NyaXB0c1xCZXN0UHJhY3RpY2VzXFVJVFBTXFVJVFBTLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMjQtMDItMDlUMTA6MTE6NDAuMDQwNzE4NiswNTozMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("99161A29-BA2B-40E6-8AC1-05AC11FF6407") = "UITP-Checks", "..\UITP-Checks\UITP-Checks.usr", "99161A29-BA2B-40E6-8AC1-05AC11FF6407"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExSIFNjcmlwdHNcVUlUUC1DaGVja3NcVUlUUC1DaGVja3MudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkQ6XExSIFNjcmlwdHNcVUlUUC1DaGVja3NcVUlUUC1DaGVja3MudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyNC0wMi0wOVQxMTozNzozNS4wNDUwMTc0KzA1OjMwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		94BEA3E2-2838-4950-BD7C-FA1A2DFC14AB.Debug|Any CPU.Build.0 = Debug|Any CPU
+		94BEA3E2-2838-4950-BD7C-FA1A2DFC14AB.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		94BEA3E2-2838-4950-BD7C-FA1A2DFC14AB.Release|Any CPU.Build.0 = Release|Any CPU
+		94BEA3E2-2838-4950-BD7C-FA1A2DFC14AB.Release|Any CPU.ActiveCfg = Release|Any CPU
+		99161A29-BA2B-40E6-8AC1-05AC11FF6407.Debug|Any CPU.Build.0 = Debug|Any CPU
+		99161A29-BA2B-40E6-8AC1-05AC11FF6407.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		99161A29-BA2B-40E6-8AC1-05AC11FF6407.Release|Any CPU.Build.0 = Release|Any CPU
+		99161A29-BA2B-40E6-8AC1-05AC11FF6407.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

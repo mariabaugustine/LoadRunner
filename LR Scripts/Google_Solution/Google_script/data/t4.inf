@@ -1,0 +1,11 @@
+[t4]
+FileName1=t4.htm
+URL1=https://www.google.com/gen_204?atyp=i&ei=rLTAZb3MNtW44-EPuee00Aw&ct=slh&v=t1&m=HV&pv=0.5988358137453018&me=1:1707127422246,V,0,0,1280,593:0,B,593:0,N,1,rLTAZb3MNtW44-EPuee00Aw:0,R,1,1,0,0,1280,593:390,x:401,h,1,1,o:23030,e,B&zx=1707127446068&opi=89978449
+Total=1
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

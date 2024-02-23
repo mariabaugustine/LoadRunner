@@ -1,0 +1,11 @@
+[t28]
+FileName1=t28.htm
+URL1=https://www.google.com/gen_204?atyp=csi&ei=1rTAZZiLJqiQ4-EP4YCUqAM&s=jsa&jsi=s,st.5787,t.0,at.8,et.click,n.msmzHf,cn.1,ie.1,vi.1&zx=1707127469508&opi=89978449
+Total=1
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_28.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

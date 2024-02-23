@@ -1,0 +1,7 @@
+[t62]
+SnapshotXmlFile=snapshot_62.xml
+RequestHeaderFile=t62_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t62_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

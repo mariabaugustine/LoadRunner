@@ -1,0 +1,16 @@
+GET /en-us/gdpr-widgets?type=generic_banner HTTP/1.1
+Host: www.microfocus.com
+Connection: keep-alive
+sec-ch-ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.microfocus.com/en-us/products/loadrunner-professional/overview
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Cookie: user_language=en-us; user_country=+++United+States; RT="z=1&dm=www.microfocus.com&si=af1a665e-a982-413b-a63f-ccaa4d1d6bb2&ss=ls8rqvn8&sl=0&tt=0"; sa-user-id=s%253A0-de44d7d6-614c-5296-5e3b-df5a60e413cf.ikrU6tCDkkkLlKZ3HJizcc2JwWzk6a4xvNisK1s7Dko; sa-user-id-v2=s%253A3kTX1mFMUpZeO99aYOQTz8tcPUQ.MgIT0V%252BiRSfWHUdKVNLnqNY2gOCtd23orfkx007wrko; sa-user-id-v3=s%253AAQAKIIRBBZWuugqQpC3T6RlEcCmsY8VbbtyOr85J07jd9n18EHwYBCDS64KuBjABOgQhyhL0QgTnIh_l.zXpUgNITtej54eS4RD%252FeOLI%252B7UoYYJCYsiyblebc2ag
+

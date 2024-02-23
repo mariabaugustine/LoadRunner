@@ -1,0 +1,13 @@
+[t55]
+FileName1=t55.html
+URL1=https://activity.wisepops.com/?v=2.1.7&site=Wkkg8FGb9u
+Total=2
+RequestHeaderFile=t55_RequestHeader.txt
+RequestBodyFile=t55_RequestBody.txt
+ResponseHeaderFile=t55_ResponseHeader.txt
+ContentType=image/gif
+SnapshotXmlFile=snapshot_55.xml
+FileName2=t55_hm.gif
+URL2=https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1280x720&vl=593&et=0&ja=0&ln=en-gb&lo=0&rnd=1110510131&si=159b3f1b5b1c2f4f2daff198212d485c&su=https%3A%2F%2Fwww.google.com%2F&v=1.3.0&lv=1&sn=6513&r=0&ww=1280&u=https%3A%2F%2Fwww.microfocus.com%2Fen-us%2Fproducts%2Floadrunner-professional%2Foverview&tt=Performance%20Load%20Testing%20Tools%3A%20LoadRunner%20Professional%20%7C%20OpenText
+[ProtocolInfo]
+ProtocolId=QTWeb

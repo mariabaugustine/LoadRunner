@@ -1,0 +1,13 @@
+[t18]
+FileName1=t18_search.json
+URL1=https://www.google.com/complete/search?q&cp=0&client=gws-wiz-serp&xssi=t&gs_pcrt=2&hl=en-IN&authuser=0&pq=java&psi=1rTAZZiLJqiQ4-EP4YCUqAM.1707127465146&dpr=1&ofp=GPu5toGhvPnPswEYh96g8O3W1UwY_cq-7p2UvOJLGKGk362F88GTKRiIvYGKkdC5mVg&nolsbt=1
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_18.xml
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t18_ResponseHeader.txt
+FileName2=t18_rs=ACT90oGqTdjmnE1HTEgY9tpQHOBMXWGsLQ.html
+URL2=https://www.google.com/xjs/_/js/md=1/k=xjs.s.en_GB.Q-FVxvKVsrc.O/ck=xjs.s.7TG0kWAnQIU.L.W.O/am=ABAAAAQIAAAAAAAAAAAAAABAAAAAgASCAMIhABsgAL4EAEiAAAABjIFFIUAEwAAAQcDnPwEAAAAAAJiAwAAQLoAUAoMAAAATUAXQDvgAAAAAgv0AMYDAAwIAAMBAfgAKATiAIEABEAAAAEAegOcBcJDCAgAAAAAAAAAAABBAgiAckH5BAAQAAAAAAAAAAAAAUmli5WEAgA/rs=ACT90oGqTdjmnE1HTEgY9tpQHOBMXWGsLQ
+[ProtocolInfo]
+ProtocolId=QTWeb

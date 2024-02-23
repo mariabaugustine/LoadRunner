@@ -1,0 +1,12 @@
+Start auto log messages stack.	[MsgId: MMSG-10546]
+Runtime Settings file: "C:\Users\Administrator\AppData\Local\Temp\lr5tmpdircHX.180\lrcfgLFx.181\cfgwLN.182"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(16): web_url("thinking-tester-contact-list.herokuapp.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(16): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:0A0003E8:SSL routines::reason(1000)  	[MsgId: MMSG-26000]
+vuser_init.c(16): Error -27774: SSL protocol error when attempting to connect with host "thinking-tester-contact-list.herokuapp.com"  	[MsgId: MERR-27774]
+vuser_init.c(16): Error -27760: Request "https://thinking-tester-contact-list.herokuapp.com/" failed  	[MsgId: MERR-27760]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

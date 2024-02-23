@@ -1,0 +1,779 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-oracle-ocm-app-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-encode-response-if-executable",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "intervention",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 17,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-05-2024",
+    "RecordingDuration": 18610,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1707126685,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 1088042,
+    "TotalBytesSent": 75906,
+    "TotalRequests": 58,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "oracleinfinity.io",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.29.39.127",
+          "IncludeInScript": true,
+          "Name": "dc.oracleinfinity.io",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 141,
+              "EventId": 2813,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://dc.oracleinfinity.io/wh3g12c3gg/dcs.gif?dcsdat=1707127920700&dcssip=www.java.com&dcsuri=/en/&dcsref=https://www.google.com/&wt.tz=5&wt.bh=15&wt.ul=en-GB&wt.cd=24&wt.sr=1280x720&wt.jo=No&wt.js=Yes&wt.bs=1280x593&wt.dl=0&wt.ssl=1&wt.es=www.java.com/en/&wt.tv=1.0.4&wt.ce=1&wt.vtid=b03d4e03-8590-4f0c-8f04-43eadcfef1f9&wt.co_f=b03d4e03-8590-4f0c-8f04-43eadcfef1f9&ora.tag_id=java&ora.tag_config=production&wt.cg_l1=en&wt.plgcm_tv=1.25&wt.gcm_uid=NotSent&wt.p_status=A&wt.p_cookie_att=0~implied~NoCookie&wt.url_es=https://www.java.com/en/&wt.z_prev=https://www.google.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 141,
+              "EventId": 2809,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://dc.oracleinfinity.io/wh3g12c3gg/dcs.gif?wt.tm_pageready=3.465&wt.tm_pageredir=0.582&wt.tm_serverconn=0.000&wt.tm_pagedns=0.000&wt.tm_serverresponse=0.002&wt.tm_pagedownload=0.210&wt.tm_domcontentloaded=3.458&wt.tm_redirect=0.582&wt.dl=70&wt.tm_tv=1.0.4&dcsdat=1707127920689&dcssip=www.java.com&dcsuri=/en/&dcsref=https://www.google.com/&wt.tz=5&wt.bh=15&wt.ul=en-GB&wt.cd=24&wt.sr=1280x720&wt.jo=No&wt.js=Yes&wt.bs=1280x593&wt.ssl=1&wt.es=www.java.com/en/&wt.tv=1.0.4&wt.ce=1&wt.vtid=b03d4e03-8590-4f0c-8f04-43eadcfef1f9&wt.co_f=b03d4e03-8590-4f0c-8f04-43eadcfef1f9&ora.tag_id=java&ora.tag_config=production&wt.cg_l1=en"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 141,
+              "EventId": 2805,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://dc.oracleinfinity.io/wh3g12c3gg/dcs.gif?wt.hm_scrolldepth=100&wt.hm_scrolldepthtype=start&wt.dl=125&wt.hm_timespan=12&dcsdat=1707127920685&dcssip=www.java.com&dcsuri=/en/&dcsref=https://www.google.com/&wt.tz=5&wt.bh=15&wt.ul=en-GB&wt.cd=24&wt.sr=1280x720&wt.jo=No&wt.js=Yes&wt.bs=1280x593&wt.ssl=1&wt.es=www.java.com/en/&wt.tv=1.0.4&wt.ce=1&wt.vtid=b03d4e03-8590-4f0c-8f04-43eadcfef1f9&wt.co_f=b03d4e03-8590-4f0c-8f04-43eadcfef1f9&wt.vt_f=1&ora.tag_id=java&ora.tag_config=production&wt.cg_l1=en"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 141,
+              "EventId": 2797,
+              "HttpStatus": 200,
+              "Size": 68,
+              "URL": "https://dc.oracleinfinity.io/v4/account/wh3g12c3gg/client/id"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "69.192.1.66",
+          "IncludeInScript": true,
+          "Name": "c.oracleinfinity.io",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 2708,
+              "HttpStatus": 200,
+              "Size": 25881,
+              "URL": "https://c.oracleinfinity.io/acs/account/wh3g12c3gg/js/java/analytics-production/analytics.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 2705,
+              "HttpStatus": 200,
+              "Size": 16049,
+              "URL": "https://c.oracleinfinity.io/acs/common/js/1.3.43/common.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 2671,
+              "HttpStatus": 200,
+              "Size": 2678,
+              "URL": "https://c.oracleinfinity.io/acs/account/wh3g12c3gg/js/java/analytics-production.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 2666,
+              "HttpStatus": 200,
+              "Size": 13539,
+              "URL": "https://c.oracleinfinity.io/acs/account/wh3g12c3gg/js/java/odc.js?_ora.context=analytics:production"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "oraclecloud.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.121.252.169",
+          "IncludeInScript": true,
+          "Name": "static.ocecdn.oraclecloud.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 2673,
+              "HttpStatus": 200,
+              "Size": 234357,
+              "URL": "https://static.ocecdn.oraclecloud.com/cdn/cec/v23.12.1.3/_sitesclouddelivery/renderer/renderer.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 2608,
+              "HttpStatus": 200,
+              "Size": 6644,
+              "URL": "https://static.ocecdn.oraclecloud.com/cdn/cec/v23.12.1.3/_sitesclouddelivery/renderer/require.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 2578,
+              "HttpStatus": 200,
+              "Size": 9512,
+              "URL": "https://static.ocecdn.oraclecloud.com/cdn/cec/v23.12.1.3/_sitesclouddelivery/renderer/controller.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "oracle.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.8.178.55",
+          "IncludeInScript": true,
+          "Name": "www.oracle.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/woff2",
+              "DownloadTime": 32,
+              "EventId": 2765,
+              "HttpStatus": 200,
+              "Size": 215423,
+              "URL": "https://www.oracle.com/asset/web/fonts/redwoodicons.woff2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 2729,
+              "HttpStatus": 200,
+              "Size": 5588,
+              "URL": "https://www.oracle.com/asset/web/analytics/infinity_common.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "font/woff2",
+              "DownloadTime": 31,
+              "EventId": 2711,
+              "HttpStatus": 200,
+              "Size": 72239,
+              "URL": "https://www.oracle.com/asset/web/fonts/oraclesansvf.woff2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 2654,
+              "HttpStatus": 200,
+              "Size": 108861,
+              "URL": "https://www.oracle.com/asset/web/css/redwood-styles.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 32,
+              "EventId": 2640,
+              "HttpStatus": 200,
+              "Size": 141284,
+              "URL": "https://www.oracle.com/asset/web/css/redwood-base.css"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "java.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "69.192.1.48",
+          "IncludeInScript": true,
+          "Name": "www.java.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 32,
+              "EventId": 2789,
+              "HttpStatus": 200,
+              "Size": 1908,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/img/Java-horz-wht.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 2787,
+              "HttpStatus": 200,
+              "Size": 15392,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/js/metrics_group1.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 2782,
+              "HttpStatus": 200,
+              "Size": 67,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/translations/root/header.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 2776,
+              "HttpStatus": 200,
+              "Size": 1300,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/js/s_code_remote.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 2763,
+              "HttpStatus": 200,
+              "Size": 852,
+              "URL": "https://www.java.com/content/published/api/v1.1/assets/CONT32E28F7C5A8446DDA7E9CFA66A3A6DB7/native?cb=_cache_0dfd&channelToken=1f7d2611846d4457b213dfc9048724dc"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 2754,
+              "HttpStatus": 200,
+              "Size": 97,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/translations/header.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 2751,
+              "HttpStatus": 200,
+              "Size": 114123,
+              "URL": "https://www.java.com/content/published/api/v1.1/assets/CONTAC42441D88644D75A6C7B964A1FA1601/native?cb=_cache_0dfd&channelToken=1f7d2611846d4457b213dfc9048724dc"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 2749,
+              "HttpStatus": 200,
+              "Size": 233,
+              "URL": "https://www.java.com/_cache_cc07/_compdelivery/JCOM-Footer_Detail-Redwood/assets/layout.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 2745,
+              "HttpStatus": 200,
+              "Size": 1986,
+              "URL": "https://www.java.com/_cache_cc07/_compdelivery/JCOM-Banner-Redwood/assets/design.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 2743,
+              "HttpStatus": 200,
+              "Size": 275,
+              "URL": "https://www.java.com/_cache_cc07/_compdelivery/JCOM-SimplePage_Detail/assets/layout.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 2741,
+              "HttpStatus": 200,
+              "Size": 375,
+              "URL": "https://www.java.com/_cache_cc07/_compdelivery/JCOM-Banner-Redwood/assets/layout.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 46,
+              "EventId": 2739,
+              "HttpStatus": 200,
+              "Size": 1698,
+              "URL": "https://www.java.com/_cache_cc07/_compdelivery/JCOM-Footer_Detail-Redwood/assets/render.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 46,
+              "EventId": 2737,
+              "HttpStatus": 200,
+              "Size": 1457,
+              "URL": "https://www.java.com/_cache_cc07/_compdelivery/JCOM-Banner-Redwood/assets/render.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 2735,
+              "HttpStatus": 200,
+              "Size": 661,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/js/dependencies/i18n.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 2733,
+              "HttpStatus": 200,
+              "Size": 2963,
+              "URL": "https://www.java.com/_cache_cc07/_compdelivery/JCOM-SimplePage_Detail/assets/render.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 2731,
+              "HttpStatus": 200,
+              "Size": 1435,
+              "URL": "https://www.java.com/_cache_cc07/_compdelivery/JCOM-Header-GlobalNav/assets/template.html"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 2727,
+              "HttpStatus": 200,
+              "Size": 2294,
+              "URL": "https://www.java.com/_cache_cc07/_compdelivery/JCOM-Header-GlobalNav/assets/render.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 2725,
+              "HttpStatus": 200,
+              "Size": 406,
+              "URL": "https://www.java.com/_cache_0dfd/caas_contenttypemap.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 2721,
+              "HttpStatus": 200,
+              "Size": 1982,
+              "URL": "https://www.java.com/content/published/api/v1.1/items?q=((id%20eq%20%22COREEACA6644ABED46228A54322C5E14161D%22%20or%20id%20eq%20%22CORE1CE64AD7F2E944B68F223DEBB0AF616A%22%20or%20id%20eq%20%22CORE168A2AB12456492DBDEE32B47DC48D57%22)%20and%20(language%20eq%20%22en%22))&channelToken=1f7d2611846d4457b213dfc9048724dc&cb=_cache_0dfd"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 2635,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.java.com/akam/13/pixel_7fde5d22"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 2624,
+              "HttpStatus": 200,
+              "Size": 450,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/css/print.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 2622,
+              "HttpStatus": 200,
+              "Size": 2697,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/js/theme.deferred.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 2618,
+              "HttpStatus": 200,
+              "Size": 30118,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/js/theme.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 2616,
+              "HttpStatus": 200,
+              "Size": 1092,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/js/setupLibs.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 2614,
+              "HttpStatus": 200,
+              "Size": 7643,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/css/jcom_redwood.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 2612,
+              "HttpStatus": 200,
+              "Size": 1372,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/js/promise-polyfill.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 32,
+              "EventId": 2610,
+              "HttpStatus": 200,
+              "Size": 4678,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/css/screen.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 2599,
+              "HttpStatus": 200,
+              "Size": 4284,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/assets/css/oldcss.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 2592,
+              "HttpStatus": 200,
+              "Size": 1863,
+              "URL": "https://www.java.com/_cache_cdbd/_themesdelivery/JCOM_Base_Theme/layouts/JCOM-1col_new.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 32,
+              "EventId": 2590,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "https://www.java.com/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 2586,
+              "HttpStatus": 200,
+              "Size": 1280,
+              "URL": "https://www.java.com/_cache_9e50/pages/100.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 2582,
+              "HttpStatus": 200,
+              "Size": 2407,
+              "URL": "https://www.java.com/_cache_9e50/en_structure.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 250,
+              "EventId": 2570,
+              "HttpStatus": 200,
+              "Size": 8748,
+              "URL": "https://www.java.com/akam/13/7fde5d22"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 2568,
+              "HttpStatus": 200,
+              "Size": 5514,
+              "URL": "https://www.java.com/en/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 62,
+              "EventId": 2563,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.java.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.163.174",
+          "IncludeInScript": true,
+          "Name": "encrypted-tbn0.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 2515,
+              "HttpStatus": 200,
+              "Size": 2090,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi4QgKkKfSwrFZ6aZTB6PPbgdadB5XrFSfvaAjmTk&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 32,
+              "EventId": 2507,
+              "HttpStatus": 200,
+              "Size": 2021,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwGY1iBZBWUX_rJqAAyWHENn0QVT7cPdBKFV-1EBuVxsVTuZSdZD8wA0&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 2505,
+              "HttpStatus": 200,
+              "Size": 2314,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSieUazqomi06p53_bUUUwTIOlSGDWHdLVG2HiGNakZRTpT-1rcH4HgYK0&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 2499,
+              "HttpStatus": 200,
+              "Size": 2731,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLrl_fqf58JKtWwwZv2L4ewWH78IBAinv5RnKHGMdzbpQTCpKg-YWfPYI&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 2497,
+              "HttpStatus": 200,
+              "Size": 1976,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKYbjCijwGB0aidJRhOkra2FETFoPKd1nesJqR_k&s=10"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 2494,
+              "HttpStatus": 200,
+              "Size": 1822,
+              "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXBLEBkLrKLcYJDDMVxyNGEARF9_n78jmAuYckYnE&s=10"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.74",
+          "IncludeInScript": true,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 110,
+              "EventId": 2802,
+              "HttpStatus": 200,
+              "Size": 36,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDASGQkJP_rgD167ShIFDT0fUzwhRWqQGHorRLg=?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 3
+}

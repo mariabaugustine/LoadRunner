@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Accept-Ranges: bytes
+Access-Control-Expose-Headers: X-ORACLE-APMCS-REQUEST-ID
+Content-Encoding: gzip
+Docsdatahash: 4e03f924a7ce64f723d18575e4643ba5f84cf9d0b70061e21136284a7fe52017
+Docshashtype: SHA-256
+ETag: W2V2Ml1wcmltYXJ5O0RPQ1MwMDAwOTMxNzgwMDAwMjAwMzA0Njs5MzE3ODAwMDAyNjM0MjI1O0RCNDk5MTk0QjE3MEQzNzI1Rjg0NTQ0QTFEQkJFMzBDNDRCOUZGNTgwN0Q4
+Pragma: no-cache
+Strict-Transport-Security: max-age=86400;includeSubDomains;preload
+X-Content-Type-Options: nosniff
+X-Oracle-Apmcs-Request-Id: FB0B49419CE85C4794B0D11A946BD9D2D8940CF7
+X-Oracle-Dms-Ecid: b6928440-e7eb-4c34-99f0-9f048a4288d6-005abbef
+X-Oracle-Dms-Rid: 0
+Content-Length: 2407
+Cache-Control: no-store
+Expires: Mon, 05 Feb 2024 10:21:17 GMT
+Date: Mon, 05 Feb 2024 10:21:17 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Akamai-GRN: 0.2c01c045.1707128477.18e75a1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1
+Set-Cookie: ak_bmsc=CB969FC4D1316906CEE9C26A690C9963~000000000000000000000000000000~YAAQLAHARaHHyWGNAQAAk1bJeBY/JH2JKeVfSyNka55EKIixmpLXUEgcwaqgfL2B03VZba4aUVAoFbu0oa2ggYUDZLAfDi8rZWrkG/iCZL61Af6UKa4GGlbZDByhwt6ugk4dipj6aykHTFhFNX8UodH14AxDze1oKKAPF8tj2oIldC5ifje1XCEJb+GnaJ5cW+2qT5NJGlQbFsLsqWF1zSrYJ4YMMGEh02oe2S5r6iSWOA8GNfxHxg9BzVmLSH1a6znfhi44k7HEOmxWF0KMPXpVegyLR4Z3iNRYlsG7NmJElCB78UsUGEo7uWJEcFkgFs+ROpJ8Kzv40tJq5hZTuwaLJoW6khhgNsXt/ApxyhkP2Q1phyV70DFjSa1YKziUWbfH65tNL9n8EAMpOnv7a1/J8EGfGT06onloldO+l1hcXTbAgrr7HGzpjXYPWp/y9aKeI3fgBm7KiCSsgCSPm/0K/fqNcS7Tzg==; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 12:21:14 GMT; Max-Age=7197; HttpOnly
+Set-Cookie: bm_sv=2C6B7B5B617F0A0601239410C0178324~YAAQLAHARaLHyWGNAQAAk1bJeBaROufK5rh9F0TmOlERKM79VlGTSXgIVUKnhpzHvgf02xnNB7mlIE3EzxtezDWWgG9j+IxOBvuxklJ2XT7/gyswSYLboXqxe7pLwO43kKYkT6M+JfGrW76G92TL5t9T4iINpVnH9mok5CwMo5GU3/HCaXivmUBD5OM6djtAuQEY0oSwHsXaBpqG9SjSZ2P3ZYuJR6X59ExQLzbXhkpOw6tYzSghtfKyjs606w==~1; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 12:21:17 GMT; Max-Age=7200; Secure
+Server-Timing: ak_p; desc="1707128477317_1170211116_26113441_27_13397_8_0_-";dur=1
+

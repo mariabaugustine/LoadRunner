@@ -1,0 +1,15 @@
+[t69]
+FileName1=t69_caas_contenttypemap.json
+URL1=https://www.java.com/_cache_0dfd/caas_contenttypemap.json
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_69.xml
+RequestHeaderFile=t69_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t69_ResponseHeader.txt
+FileName2=t69_render.html
+URL2=https://www.java.com/_cache_cc07/_compdelivery/JCOM-Header-GlobalNav/assets/render.js
+FileName3=t69_infinity_common.html
+URL3=https://www.oracle.com/asset/web/analytics/infinity_common.js
+[ProtocolInfo]
+ProtocolId=QTWeb

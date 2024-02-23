@@ -1,0 +1,13 @@
+[t48]
+FileName1=t48_i.json
+URL1=https://scout.salesloft.com/i
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_48.xml
+RequestHeaderFile=t48_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t48_ResponseHeader.txt
+FileName2=t48.png
+URL2=https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=998152207052068&ev=PageView&dl=https%3A%2F%2Fwww.microfocus.com%2Fen-us%2Fproducts%2Floadrunner-professional%2Foverview&rl=https%3A%2F%2Fwww.google.com%2F&if=false&ts=1707127717679&sw=1280&sh=720&v=2.9.144&r=stable&ec=0&o=4126&fbp=fb.1.1707127717678.51514351&ler=other&cdl=API_unavailable&it=1707127717418&coo=false&exp=e1&rqm=FGET
+[ProtocolInfo]
+ProtocolId=QTWeb

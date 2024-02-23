@@ -1,0 +1,11 @@
+[t5]
+FileName1=t5.htm
+URL1=https://www.google.com/gen_204?atyp=csi&ei=rLTAZb3MNtW44-EPuee00Aw&s=jsa&jsi=hd,st.37571,t.0,at.5,et.click,n.vZr2rb,cn.1,ie.0,vi.1&zx=1707127458143&opi=89978449
+Total=1
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

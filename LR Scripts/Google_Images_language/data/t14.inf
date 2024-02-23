@@ -1,0 +1,11 @@
+[t14]
+FileName1=t14_6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.html
+URL1=https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2
+Total=1
+ContentType=font/woff2
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

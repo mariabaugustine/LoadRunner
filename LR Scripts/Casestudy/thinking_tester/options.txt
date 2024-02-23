@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LR Scripts\Casestudy\thinking_tester
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\lr scripts\casestudy\thinking_tester\\logfile.log
+d:\lr scripts\casestudy\thinking_tester\\combined_thinking_tester.c
+d:\lr scripts\casestudy\thinking_tester\\pre_cci.c

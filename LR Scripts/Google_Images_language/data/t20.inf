@@ -1,0 +1,11 @@
+[t20]
+FileName1=t20_ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDASJwm4ouDoPDlzyRIFDWCIu-ISBQ2-6S43EgUNMT2UMCELHZFHpklVVA==.txt
+URL1=https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDASJwm4ouDoPDlzyRIFDWCIu-ISBQ2-6S43EgUNMT2UMCELHZFHpklVVA==?alt=proto
+Total=1
+ContentType=text/plain
+SnapshotXmlFile=snapshot_14.xml
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

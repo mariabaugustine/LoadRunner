@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: uitestingplayground.com",
+                "infFile": "t1.inf",
+                "time": 1707454589934
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: ListAccounts",
+                "infFile": "t2.inf",
+                "time": 1707454590236
+            }
+        ],
+        "transactions": []
+    }
+]

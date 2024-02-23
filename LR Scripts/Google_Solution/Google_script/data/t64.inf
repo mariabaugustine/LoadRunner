@@ -1,0 +1,15 @@
+[t64]
+FileName1=t64.htm
+URL1=https://www.java.com/en/
+Total=3
+RequestHeaderFile=t64_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t64_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_64.xml
+FileName2=t64_7fde5d22.html
+URL2=https://www.java.com/akam/13/7fde5d22
+FileName3=t64_controller.html
+URL3=https://static.ocecdn.oraclecloud.com/cdn/cec/v23.12.1.3/_sitesclouddelivery/renderer/controller.js
+[ProtocolInfo]
+ProtocolId=QTWeb

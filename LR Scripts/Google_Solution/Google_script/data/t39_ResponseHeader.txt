@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: ALLOW-FROM https://www.google.com
+Content-Security-Policy: frame-ancestors https://www.google.com
+Content-Security-Policy: script-src 'report-sample' 'nonce-lcvLqZujDtJ6OwdXOFdNUw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/OneGoogleWidgetUi/cspreport;worker-src 'self'
+Content-Security-Policy: script-src 'unsafe-inline' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/OneGoogleWidgetUi/cspreport/allowlist
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/OneGoogleWidgetUi/cspreport
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+x-ua-compatible: IE=edge
+Expires: Mon, 05 Feb 2024 10:17:02 GMT
+Date: Mon, 05 Feb 2024 10:17:02 GMT
+Cache-Control: private, max-age=3600
+Strict-Transport-Security: max-age=31536000
+Cross-Origin-Embedder-Policy-Report-Only: require-corp; report-to="OneGoogleWidgetUi"
+Cross-Origin-Resource-Policy: same-site
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Cross-Origin-Opener-Policy: same-origin
+Report-To: {"group":"OneGoogleWidgetUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/OneGoogleWidgetUi"}]}
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+reporting-endpoints: default="/_/OneGoogleWidgetUi/web-reports?context=eJzj8tHikmLw1ZBiKFj5gundl5dMPF9fMkkAsQYQ7_DxYHkTPp2VK2I6a1zddNY8IOZbN51Vd_10Vqf0GaxBQOxbP4M1Fojj_p9jFeLmmPe6aR2bwIHzi7UAG1ci6w"
+Content-Encoding: gzip
+Server: ESF
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+

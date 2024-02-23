@@ -1,0 +1,11 @@
+[t54]
+FileName1=t54.json
+URL1=http://update.googleapis.com/service/update2/json?cup2key=13:UhfxZkUZTbTrUbvbyvEaTZTlK6ZfGMVVD2IE4OWYODw&cup2hreq=36b835d6ebaa56f0f6c2d71fb94f1a732bd24c01bf2c116ffe63e6ad81ca1b90
+Total=1
+RequestHeaderFile=t54_RequestHeader.txt
+RequestBodyFile=t54_RequestBody.txt
+ResponseHeaderFile=t54_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_54.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

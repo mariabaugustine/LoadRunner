@@ -1,0 +1,2600 @@
+------------------------------------------------------------------------------------------
+| LoadRunner Recording Log File                                    |
+| Date Generated : Mon Feb 12 15:57:32 2024                                              |
+------------------------------------------------------------------------------------------
+
+[Op#:     1]------------------------------------------------------------------------------
+Record Section      : vuser_init
+
+[Op#:     2]------------------------------------------------------------------------------
+Start Record        : 1
+
+[Op#:     3]------------------------------------------------------------------------------
+Api Event (0)       : Id=WPLUS Proc=2e5c:2718  Start=1131109  End=1131109  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:     4]------------------------------------------------------------------------------
+Api Event (1)       : Id=WPLUS Proc=2e5c:1538  Start=1131296  End=1131296  Duration=0 msec
+Operation Name      : wplus_gethostbyname_ipng
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [family] = 23
+Argument#  3  IN  : [flowinfo] = 0
+Argument#  4  IN  : [addr] = Array[0:16]{ "\xfe\x80\x00\x00\x00\x00\x00\x00\x03\xd7_Z\x83QU\x9a" }
+Argument#  5  IN  : [scope_id] = 4
+Return Value      : (void)
+
+[Op#:     5]------------------------------------------------------------------------------
+Api Event (2)       : Id=WPLUS Proc=2e5c:1538  Start=1131296  End=1131296  Duration=0 msec
+Operation Name      : wplus_gethostbyname_ipng
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [family] = 23
+Argument#  3  IN  : [flowinfo] = 0
+Argument#  4  IN  : [addr] = Array[0:16]{ "\xfe\x80\x00\x00\x00\x00\x00\x00\x03\xd7_Z\x83QU\x9a" }
+Argument#  5  IN  : [scope_id] = 4
+Return Value      : (void)
+
+[Op#:     6]------------------------------------------------------------------------------
+Api Event (3)       : Id=WPLUS Proc=2e5c:0850  Start=1131484  End=1131484  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:     7]------------------------------------------------------------------------------
+Api Event (4)       : Id=WPLUS Proc=2e5c:0850  Start=1131515  End=1131515  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [ipaddress] = 142.250.195.35 (23c3fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:     8]------------------------------------------------------------------------------
+Api Event (5)       : Id=WPLUS Proc=2e5c:0850  Start=1131718  End=1131718  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:     9]------------------------------------------------------------------------------
+Api Event (6)       : Id=WPLUS Proc=2e5c:0850  Start=1131953  End=1131953  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    10]------------------------------------------------------------------------------
+Api Event (7)       : Id=WPLUS Proc=2e5c:0850  Start=1131984  End=1131984  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    11]------------------------------------------------------------------------------
+Api Event (8)       : Id=WPLUS Proc=2e5c:0850  Start=1132046  End=1132046  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [ipaddress] = 74.125.200.84 (54c87d4a)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    12]------------------------------------------------------------------------------
+Api Event (9)       : Id=WPLUS Proc=2e5c:1aa8  Start=1132171  End=1132171  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "dc87d9e3e5d35aaad5f13347b9a1f4c54965f0bee499c3f5bc5a33a6a24fb89a"
+Return Value      : (void)
+
+[Op#:    13]------------------------------------------------------------------------------
+Api Event (10)      : Id=WPLUS Proc=2e5c:1aa8  Start=1132171  End=1132171  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "clientservices.googleapis.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    14]------------------------------------------------------------------------------
+Api Event (11)      : Id=WPLUS Proc=2e5c:2ae8  Start=1132718  End=1132718  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "12"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "ECDHE-RSA-AES128-GCM-SHA256"
+Argument#  7  IN  : [value5] = "0aef59598e07b3384f40f0b781efdc0c9c948fdd9974246c684816e3086c1432"
+Return Value      : (void)
+
+[Op#:    15]------------------------------------------------------------------------------
+Api Event (12)      : Id=WPLUS Proc=2e5c:2ae8  Start=1132718  End=1132718  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = ""
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    16]------------------------------------------------------------------------------
+Api Event (13)      : Id=WPLUS Proc=2e5c:11b0  Start=1133171  End=1133171  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "c9e84f9d2c50ab87353ebdd032e628f26c98452a080a6a70648fca513cd9401f"
+Return Value      : (void)
+
+[Op#:    17]------------------------------------------------------------------------------
+Api Event (14)      : Id=WPLUS Proc=2e5c:11b0  Start=1133171  End=1133171  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 3
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "accounts.google.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    18]------------------------------------------------------------------------------
+Api Event (15)      : Id=HTTP Proc=2e5c:800c90c9  Start=1133281  End=1133296  Duration=15 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->206
+Argument#  3  OUT : [buflen] = ->206
+Return Value      : (void)
+
+[Op#:    19]------------------------------------------------------------------------------
+Api Event (16)      : Id=HTTP Proc=2e5c:80001001  Start=1133062  End=1133296  Duration=234 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 1
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 142.250.195.35 (23c3fa8e)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:469]{ "GET /chrome-variations/seed?osname=win&channel=stable&milestone=121 HTTP/1.1\r\n"
+							"Host: clientservices.googleapis.com\r\n"
+							"Connection: keep-alive\r\n"
+							"If-None-Match: SMChYyMDI0MDIxMS0xODAxMDkuODg2MDAwEggIABADGHkgAA==#+GhkI1n5bZM=\r\n"
+							"A-IM: x-bm,gzip\r\n"
+							"Sec-Fetch-Site: none\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: empty\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:206]{ "HTTP/1.1 304 Not Modified\r\n"
+							"X-Content-Type-Options: nosniff\r\n"
+							"X-Frame-Options: SAMEORIGIN\r\n"
+							"X-Xss-Protection: 0\r\n"
+							"Date: Mon, 12 Feb 2024 10:51:37 GMT\r\n"
+							"Alt-Svc: h3="":443""; ma=2592000,h3-29="":443""; ma=2592000\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->469
+Argument#  7  OUT : [hdr_buflen] = ->206
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    20]------------------------------------------------------------------------------
+Api Event (17)      : Id=HTTP Proc=2e5c:800ca0c9  Start=1133312  End=1133312  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->2044
+Argument#  3  OUT : [buflen] = ->2044
+Return Value      : (void)
+
+[Op#:    21]------------------------------------------------------------------------------
+Api Event (18)      : Id=HTTP Proc=2e5c:80002001  Start=1133062  End=1133312  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:686]{ "GET / HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: none\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-User: ?1\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:741]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735097&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=HvwSQ4DDj6oOUKI39n7b21dweWt9ka70RgOfszRnUSk%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735097&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=HvwSQ4DDj6oOUKI39n7b21dweWt9ka70RgOfszRnUSk%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Content-Type: text/html; charset=utf-8\r\n"
+							"Content-Length: 1303\r\n"
+							"Etag: W/""517-dgrTykhOUWR7EM+tHUWOgXdTCM4""\r\n"
+							"Date: Mon, 12 Feb 2024 10:51:37 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->686
+Argument#  7  OUT : [hdr_buflen] = ->741
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_002_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    22]------------------------------------------------------------------------------
+Api Event (19)      : Id=WPLUS Proc=2e5c:0850  Start=1133343  End=1133343  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    23]------------------------------------------------------------------------------
+Api Event (20)      : Id=WPLUS Proc=2e5c:0850  Start=1133593  End=1133593  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    24]------------------------------------------------------------------------------
+Api Event (21)      : Id=HTTP Proc=2e5c:800ca0ca  Start=1133593  End=1133593  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->1738
+Argument#  3  OUT : [buflen] = ->1738
+Return Value      : (void)
+
+[Op#:    25]------------------------------------------------------------------------------
+Api Event (22)      : Id=WPLUS Proc=2e5c:0850  Start=1133593  End=1133593  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    26]------------------------------------------------------------------------------
+Api Event (23)      : Id=HTTP Proc=2e5c:80002002  Start=1133343  End=1133593  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:598]{ "GET /css/styles.css HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: text/css,*/*;q=0.1\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: style\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:825]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735097&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=HvwSQ4DDj6oOUKI39n7b21dweWt9ka70RgOfszRnUSk%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735097&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=HvwSQ4DDj6oOUKI39n7b21dweWt9ka70RgOfszRnUSk%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""391-17aa2a80818""\r\n"
+							"Content-Type: text/css; charset=UTF-8\r\n"
+							"Content-Length: 913\r\n"
+							"Date: Mon, 12 Feb 2024 10:51:37 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->598
+Argument#  7  OUT : [hdr_buflen] = ->825
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_002_002.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    27]------------------------------------------------------------------------------
+Api Event (24)      : Id=WPLUS Proc=2e5c:0850  Start=1133843  End=1133843  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 5
+Argument#  2  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    28]------------------------------------------------------------------------------
+Api Event (25)      : Id=HTTP Proc=2e5c:800ca0cb  Start=1134109  End=1134109  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [buflen] = ->13536
+Argument#  3  OUT : [buflen] = ->13536
+Return Value      : (void)
+
+[Op#:    29]------------------------------------------------------------------------------
+Api Event (26)      : Id=HTTP Proc=2e5c:80002003  Start=1133859  End=1134109  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:656]{ "GET /img/thinkingTesterLogo.png HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:818]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735098&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4cBWH%2BOIXuzNzK636N48VEIQFm6u8Z6M3n5dCmamU2I%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735098&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4cBWH%2BOIXuzNzK636N48VEIQFm6u8Z6M3n5dCmamU2I%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""31ae-17aa2a80818""\r\n"
+							"Content-Type: image/png\r\n"
+							"Content-Length: 12718\r\n"
+							"Date: Mon, 12 Feb 2024 10:51:38 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->656
+Argument#  7  OUT : [hdr_buflen] = ->818
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_002_003.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    30]------------------------------------------------------------------------------
+Api Event (27)      : Id=WPLUS Proc=2e5c:0bb8  Start=1134125  End=1134125  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "12"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "ECDHE-RSA-AES128-GCM-SHA256"
+Argument#  7  IN  : [value5] = "2b3ff74e7fa20b4ac482c1b8b73c8dd1e439db76e11abff41cdb4cb946710d2a"
+Return Value      : (void)
+
+[Op#:    31]------------------------------------------------------------------------------
+Api Event (28)      : Id=WPLUS Proc=2e5c:0bb8  Start=1134125  End=1134125  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 4
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "thinking-tester-contact-list.herokuapp.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    32]------------------------------------------------------------------------------
+Api Event (29)      : Id=HTTP Proc=2e5c:800ca0cc  Start=1134359  End=1134359  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1750
+Argument#  3  OUT : [buflen] = ->1750
+Return Value      : (void)
+
+[Op#:    33]------------------------------------------------------------------------------
+Api Event (30)      : Id=HTTP Proc=2e5c:80002004  Start=1134109  End=1134359  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:581]{ "GET /js/login.js HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: */*\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: script\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:843]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735098&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4cBWH%2BOIXuzNzK636N48VEIQFm6u8Z6M3n5dCmamU2I%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735098&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4cBWH%2BOIXuzNzK636N48VEIQFm6u8Z6M3n5dCmamU2I%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""38b-17aa2a80818""\r\n"
+							"Content-Type: application/javascript; charset=UTF-8\r\n"
+							"Content-Length: 907\r\n"
+							"Date: Mon, 12 Feb 2024 10:51:38 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->581
+Argument#  7  OUT : [hdr_buflen] = ->843
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_002_004.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    34]------------------------------------------------------------------------------
+Api Event (31)      : Id=WPLUS Proc=2e5c:0850  Start=1134390  End=1134390  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    35]------------------------------------------------------------------------------
+Api Event (32)      : Id=WPLUS Proc=2e5c:0850  Start=1134421  End=1134421  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 6
+Argument#  2  IN  : [ipaddress] = 142.250.195.138 (8ac3fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    36]------------------------------------------------------------------------------
+Api Event (33)      : Id=HTTP Proc=2e5c:800ca0cd  Start=1134625  End=1134625  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [buflen] = ->1989
+Argument#  3  OUT : [buflen] = ->1989
+Return Value      : (void)
+
+[Op#:    37]------------------------------------------------------------------------------
+Api Event (34)      : Id=HTTP Proc=2e5c:80002005  Start=1134390  End=1134625  Duration=235 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 2
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:656]{ "GET /img/thinkingTesterIcon.png HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:816]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735098&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4cBWH%2BOIXuzNzK636N48VEIQFm6u8Z6M3n5dCmamU2I%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735098&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4cBWH%2BOIXuzNzK636N48VEIQFm6u8Z6M3n5dCmamU2I%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""495-17aa2a80818""\r\n"
+							"Content-Type: image/png\r\n"
+							"Content-Length: 1173\r\n"
+							"Date: Mon, 12 Feb 2024 10:51:38 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->656
+Argument#  7  OUT : [hdr_buflen] = ->816
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_002_005.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    38]------------------------------------------------------------------------------
+Api Event (35)      : Id=WPLUS Proc=2e5c:1ab8  Start=1134671  End=1134671  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 5
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "12"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "ECDHE-RSA-AES128-GCM-SHA256"
+Argument#  7  IN  : [value5] = "a462fb41f3139480f74547785b21cbaf9ef0c17d272b5d28907c15a4a85a41ba"
+Return Value      : (void)
+
+[Op#:    39]------------------------------------------------------------------------------
+Api Event (36)      : Id=WPLUS Proc=2e5c:1ab8  Start=1134671  End=1134671  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 5
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = ""
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    40]------------------------------------------------------------------------------
+Api Event (37)      : Id=WPLUS Proc=2e5c:2ee4  Start=1134796  End=1134796  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 6
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "41e967487f23eedd2131249de2da766c1442924597da5d1e3ad57ebd1a2a013e"
+Return Value      : (void)
+
+[Op#:    41]------------------------------------------------------------------------------
+Api Event (38)      : Id=WPLUS Proc=2e5c:2ee4  Start=1134796  End=1134796  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 6
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "content-autofill.googleapis.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    42]------------------------------------------------------------------------------
+Api Event (39)      : Id=HTTP Proc=2e5c:800ce0c9  Start=1135718  End=1135734  Duration=16 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 6
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->507
+Argument#  3  OUT : [buflen] = ->507
+Return Value      : (void)
+
+[Op#:    43]------------------------------------------------------------------------------
+Api Event (40)      : Id=HTTP Proc=2e5c:80006001  Start=1135625  End=1135734  Duration=109 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 6
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 142.250.195.138 (8ac3fa8e)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:543]{ "GET /v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNjESIAmd3CIW3paY3xIFDXhvEhkSBQ3OQUx6IUHXDn_3wAwC?alt=proto HTTP/1.1\r\n"
+							"Host: content-autofill.googleapis.com\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Goog-Encode-Response-If-Executable: base64\r\n"
+							"X-Goog-Api-Key: AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw\r\n"
+							"Sec-Fetch-Site: none\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: empty\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:447]{ "HTTP/1.1 200 OK\r\n"
+							"Cache-Control: private,max-age=604800\r\n"
+							"Content-Type: text/plain\r\n"
+							"X-Goog-Safety-Encoding: base64\r\n"
+							"X-Goog-Safety-Content-Type: application/x-protobuf\r\n"
+							"Vary: Origin\r\n"
+							"Vary: X-Origin\r\n"
+							"Vary: Referer\r\n"
+							"Content-Encoding: gzip\r\n"
+							"Date: Mon, 12 Feb 2024 10:51:39 GMT\r\n"
+							"Server: ESF\r\n"
+							"Content-Length: 60\r\n"
+							"X-XSS-Protection: 0\r\n"
+							"X-Frame-Options: SAMEORIGIN\r\n"
+							"X-Content-Type-Options: nosniff\r\n"
+							"Alt-Svc: h3="":443""; ma=2592000,h3-29="":443""; ma=2592000\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->543
+Argument#  7  OUT : [hdr_buflen] = ->447
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_006_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    44]------------------------------------------------------------------------------
+Api Event (41)      : Id=WPLUS Proc=2e5c:0850  Start=1136203  End=1136203  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    45]------------------------------------------------------------------------------
+Api Event (42)      : Id=WPLUS Proc=2e5c:0850  Start=1136234  End=1136234  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 7
+Argument#  2  IN  : [ipaddress] = 142.250.205.227 (e3cdfa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    46]------------------------------------------------------------------------------
+Api Event (43)      : Id=WPLUS Proc=2e5c:2718  Start=1136406  End=1136406  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 1
+Return Value      : (void)
+
+[Op#:    47]------------------------------------------------------------------------------
+Api Event (44)      : Id=WPLUS Proc=2e5c:2718  Start=1136406  End=1136406  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 3
+Return Value      : (void)
+
+[Op#:    48]------------------------------------------------------------------------------
+Api Event (45)      : Id=WPLUS Proc=2e5c:2718  Start=1136406  End=1136406  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 6
+Return Value      : (void)
+
+[Op#:    49]------------------------------------------------------------------------------
+Api Event (46)      : Id=WPLUS Proc=2e5c:2718  Start=1136406  End=1136406  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 4
+Return Value      : (void)
+
+[Op#:    50]------------------------------------------------------------------------------
+Api Event (47)      : Id=WPLUS Proc=2e5c:2718  Start=1136406  End=1136406  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 2
+Return Value      : (void)
+
+[Op#:    51]------------------------------------------------------------------------------
+Api Event (48)      : Id=WPLUS Proc=2e5c:2718  Start=1136406  End=1136406  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 5
+Return Value      : (void)
+
+[Op#:    52]------------------------------------------------------------------------------
+Api Event (49)      : Id=WPLUS Proc=2e5c:2718  Start=1137406  End=1137421  Duration=15 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 7
+Return Value      : (void)
+
+[Op#:    53]------------------------------------------------------------------------------
+Api Event (50)      : Id=WPLUS Proc=2e5c:0850  Start=1140531  End=1140531  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    54]------------------------------------------------------------------------------
+Api Event (51)      : Id=WPLUS Proc=2e5c:0850  Start=1140562  End=1140562  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 8
+Argument#  2  IN  : [ipaddress] = 142.250.182.74 (4ab6fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    55]------------------------------------------------------------------------------
+Api Event (52)      : Id=WPLUS Proc=2e5c:2718  Start=1142843  End=1142843  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 8
+Return Value      : (void)
+
+[Op#:    56]------------------------------------------------------------------------------
+Record Section      : Action
+
+[Op#:    57]------------------------------------------------------------------------------
+Comment             :  click sign up 
+
+[Op#:    58]------------------------------------------------------------------------------
+Api Event (53)      : Id=WPLUS Proc=2e5c:0850  Start=1176234  End=1176234  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    59]------------------------------------------------------------------------------
+Api Event (54)      : Id=WPLUS Proc=2e5c:0850  Start=1176484  End=1176484  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    60]------------------------------------------------------------------------------
+Api Event (55)      : Id=WPLUS Proc=2e5c:2a10  Start=1178078  End=1178078  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "12"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "ECDHE-RSA-AES128-GCM-SHA256"
+Argument#  7  IN  : [value5] = "96696f80900dde9cf2a3d6639ba5051efccfe52f5123aaec2d99b9809ef650cc"
+Return Value      : (void)
+
+[Op#:    61]------------------------------------------------------------------------------
+Api Event (56)      : Id=WPLUS Proc=2e5c:2a10  Start=1178078  End=1178078  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = ""
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    62]------------------------------------------------------------------------------
+Api Event (57)      : Id=HTTP Proc=2e5c:800d10c9  Start=1178734  End=1178734  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1906
+Argument#  3  OUT : [buflen] = ->1906
+Return Value      : (void)
+
+[Op#:    63]------------------------------------------------------------------------------
+Api Event (58)      : Id=HTTP Proc=2e5c:80009001  Start=1178500  End=1178734  Duration=234 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:762]{ "GET /addUser HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-User: ?1\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:745]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735142&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=%2Fe7xdI5Yjbqiai5UYpFshIxCn7YywwhNDtLsm3d7dic%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735142&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=%2Fe7xdI5Yjbqiai5UYpFshIxCn7YywwhNDtLsm3d7dic%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Content-Type: text/html; charset=utf-8\r\n"
+							"Content-Length: 1161\r\n"
+							"Etag: W/""489-9TqHTaiAqpb6cvfevUXS7lWISJQ""\r\n"
+							"Date: Mon, 12 Feb 2024 10:52:22 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->762
+Argument#  7  OUT : [hdr_buflen] = ->745
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_009_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    64]------------------------------------------------------------------------------
+Api Event (59)      : Id=WPLUS Proc=2e5c:0850  Start=1178765  End=1178765  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    65]------------------------------------------------------------------------------
+Api Event (60)      : Id=HTTP Proc=2e5c:800d10ca  Start=1179015  End=1179015  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->794
+Argument#  3  OUT : [buflen] = ->794
+Return Value      : (void)
+
+[Op#:    66]------------------------------------------------------------------------------
+Api Event (61)      : Id=HTTP Proc=2e5c:80009002  Start=1178765  End=1179015  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:691]{ "GET /css/styles.css HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"If-None-Match: W/""391-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: text/css,*/*;q=0.1\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: style\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/addUser\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:794]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735143&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=a32KtjuycpZiQryU1DPxapXfKWJExVY3vjQ4bUGb3wc%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735143&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=a32KtjuycpZiQryU1DPxapXfKWJExVY3vjQ4bUGb3wc%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""391-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:52:23 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->691
+Argument#  7  OUT : [hdr_buflen] = ->794
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    67]------------------------------------------------------------------------------
+Api Event (62)      : Id=WPLUS Proc=2e5c:0850  Start=1179015  End=1179015  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    68]------------------------------------------------------------------------------
+Api Event (63)      : Id=WPLUS Proc=2e5c:0850  Start=1179015  End=1179015  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    69]------------------------------------------------------------------------------
+Api Event (64)      : Id=WPLUS Proc=2e5c:0850  Start=1179265  End=1179265  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    70]------------------------------------------------------------------------------
+Api Event (65)      : Id=HTTP Proc=2e5c:800d10cb  Start=1179515  End=1179515  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [buflen] = ->795
+Argument#  3  OUT : [buflen] = ->795
+Return Value      : (void)
+
+[Op#:    71]------------------------------------------------------------------------------
+Api Event (66)      : Id=HTTP Proc=2e5c:80009003  Start=1179281  End=1179531  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:750]{ "GET /img/thinkingTesterLogo.png HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"If-None-Match: W/""31ae-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/addUser\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:795]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735143&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=a32KtjuycpZiQryU1DPxapXfKWJExVY3vjQ4bUGb3wc%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735143&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=a32KtjuycpZiQryU1DPxapXfKWJExVY3vjQ4bUGb3wc%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""31ae-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:52:23 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->750
+Argument#  7  OUT : [hdr_buflen] = ->795
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    72]------------------------------------------------------------------------------
+Api Event (67)      : Id=HTTP Proc=2e5c:800d10cc  Start=1179765  End=1179765  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->1969
+Argument#  3  OUT : [buflen] = ->1969
+Return Value      : (void)
+
+[Op#:    73]------------------------------------------------------------------------------
+Api Event (68)      : Id=HTTP Proc=2e5c:80009004  Start=1179531  End=1179781  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:590]{ "GET /js/addUser.js HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: */*\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: script\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/addUser\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:840]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735143&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=a32KtjuycpZiQryU1DPxapXfKWJExVY3vjQ4bUGb3wc%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735143&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=a32KtjuycpZiQryU1DPxapXfKWJExVY3vjQ4bUGb3wc%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""469-17aa2a80818""\r\n"
+							"Content-Type: application/javascript; charset=UTF-8\r\n"
+							"Content-Length: 1129\r\n"
+							"Date: Mon, 12 Feb 2024 10:52:23 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->590
+Argument#  7  OUT : [hdr_buflen] = ->840
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_009_004.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    74]------------------------------------------------------------------------------
+Api Event (69)      : Id=WPLUS Proc=2e5c:0850  Start=1179796  End=1179796  Duration=0 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    75]------------------------------------------------------------------------------
+Api Event (70)      : Id=WPLUS Proc=2e5c:0850  Start=1179812  End=1179812  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [ipaddress] = 142.250.195.138 (8ac3fa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    76]------------------------------------------------------------------------------
+Api Event (71)      : Id=WPLUS Proc=2e5c:08b8  Start=1179890  End=1179890  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "12"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "ECDHE-RSA-AES128-GCM-SHA256"
+Argument#  7  IN  : [value5] = "f82017d75fdf7a8c216aa6b0eaa2064bf21a0e8b5162efac33626f6fbc11ac4f"
+Return Value      : (void)
+
+[Op#:    77]------------------------------------------------------------------------------
+Api Event (72)      : Id=WPLUS Proc=2e5c:08b8  Start=1179890  End=1179890  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "thinking-tester-contact-list.herokuapp.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    78]------------------------------------------------------------------------------
+Api Event (73)      : Id=HTTP Proc=2e5c:800d10cd  Start=1180015  End=1180015  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [buflen] = ->802
+Argument#  3  OUT : [buflen] = ->802
+Return Value      : (void)
+
+[Op#:    79]------------------------------------------------------------------------------
+Api Event (74)      : Id=HTTP Proc=2e5c:80009005  Start=1179796  End=1180015  Duration=219 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:749]{ "GET /img/thinkingTesterIcon.png HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/addUser\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"If-None-Match: W/""495-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:802]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735144&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=2KvsQ5l%2BNTN68ULRS%2ByY90rXeOcuWIrPfiX2dzFoSoo%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735144&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=2KvsQ5l%2BNTN68ULRS%2ByY90rXeOcuWIrPfiX2dzFoSoo%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""495-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:52:24 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->749
+Argument#  7  OUT : [hdr_buflen] = ->802
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    80]------------------------------------------------------------------------------
+Api Event (75)      : Id=WPLUS Proc=2e5c:2f34  Start=1180453  End=1180453  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "12"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "ECDHE-RSA-AES128-GCM-SHA256"
+Argument#  7  IN  : [value5] = "0240915e51ab4b4d13d27c2e2b92ba8af1981df60811897818608a4d2e187a16"
+Return Value      : (void)
+
+[Op#:    81]------------------------------------------------------------------------------
+Api Event (76)      : Id=WPLUS Proc=2e5c:2f34  Start=1180453  End=1180453  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "thinking-tester-contact-list.herokuapp.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    82]------------------------------------------------------------------------------
+Api Event (77)      : Id=WPLUS Proc=2e5c:0784  Start=1180531  End=1180531  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "b9646f789780d4686843e57c42e003a64df5f6104606f7f15a023167d0187e47"
+Return Value      : (void)
+
+[Op#:    83]------------------------------------------------------------------------------
+Api Event (78)      : Id=WPLUS Proc=2e5c:0784  Start=1180531  End=1180531  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 12
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "content-autofill.googleapis.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    84]------------------------------------------------------------------------------
+Api Event (79)      : Id=WPLUS Proc=2e5c:0850  Start=1190875  End=1190890  Duration=15 msec
+Operation Name      : wplus_gethostbyname
+Argument#  1  IN  : [name] = "8704837182305e6"
+Argument#  2  IN  : [ipaddress] = 172.19.61.26 (1a3d13ac)
+Return Value      : (void)
+
+[Op#:    85]------------------------------------------------------------------------------
+Api Event (80)      : Id=WPLUS Proc=2e5c:0850  Start=1190906  End=1190906  Duration=0 msec
+Operation Name      : wplus_connect
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [ipaddress] = 142.250.205.227 (e3cdfa8e)
+Argument#  3  IN  : [portnum] = 443
+Argument#  4  IN  : [local_portnum] = 0
+Argument#  5  IN  : [flags] = 0
+Return Value      : (void)
+
+[Op#:    86]------------------------------------------------------------------------------
+Api Event (81)      : Id=WPLUS Proc=2e5c:216c  Start=1192000  End=1192015  Duration=15 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [name] = "SSLVersionCiphers"
+Argument#  3  IN  : [value1] = "23"
+Argument#  4  IN  : [value2] = "13"
+Argument#  5  IN  : [value3] = ":ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA:AES256-SHA"
+Argument#  6  IN  : [value4] = "TLS_AES_256_GCM_SHA384"
+Argument#  7  IN  : [value5] = "a930ab363178e1f2389dab0fc942c30fab155116b12f3357e944838c4b259ef8"
+Return Value      : (void)
+
+[Op#:    87]------------------------------------------------------------------------------
+Api Event (82)      : Id=WPLUS Proc=2e5c:216c  Start=1192015  End=1192015  Duration=0 msec
+Operation Name      : wplus_property_sz
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [name] = "SSLSNIServername"
+Argument#  3  IN  : [value1] = "update.googleapis.com"
+Argument#  4  IN  : [value2] = ""
+Argument#  5  IN  : [value3] = ""
+Argument#  6  IN  : [value4] = ""
+Argument#  7  IN  : [value5] = ""
+Return Value      : (void)
+
+[Op#:    88]------------------------------------------------------------------------------
+Api Event (83)      : Id=HTTP Proc=2e5c:800d50c9  Start=1193218  End=1193218  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1145
+Argument#  3  OUT : [buflen] = ->1145
+Return Value      : (void)
+
+[Op#:    89]------------------------------------------------------------------------------
+Api Event (84)      : Id=HTTP Proc=2e5c:8000d001  Start=1192937  End=1193218  Duration=281 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 142.250.205.227 (e3cdfa8e)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:1333]{ "POST /service/update2/json?cup2key=13:RjmsdQVlWnDZ0SuZY8H6cHQpvYUplUBdqohG6vbEDLI&cup2hreq=230a4e504807b4302a076fbcf0d0398543ad298e25c014f07946f55b9e797259 HTTP/1.1\r\n"
+							"Host: update.googleapis.com\r\n"
+							"Connection: keep-alive\r\n"
+							"Content-Length: 8537\r\n"
+							"X-Goog-Update-AppId: ihnlcenocehgdaegdmhbidjhnhdchfmm,neifaoindggfcjicffkgpmnlppeffabd,oimompecagnajdejgnnjijobebaeigek,gcmjkmgdlgnkkcocmoeiminaijmmjnii,obedbbhbpmojnkanicioggnmelmoomoc,lmelglejhemejginpboagddgdfbepgmp,kiabhabjdbkjdpjbpigfodbdjmbglcoo,niikhdgajlphfehepabhhblakbdgeefj,giekcmmlnklenlaomppkphknjmnnpneh,khaoiebndkojlmppeemjhbpbandiljpe,hfnkpimlhhgieaddgfemjhofmfblmnib,llkgjffcdpffmhiakmfcdcblohccpfmo,laoigpblnllgcgjnjnllmfolckpjlhki,ehgidpndbllacpjalkiimkbadgjfnnmc,efniojlnjndmcbiieegkicadnoecjjef,jflookgnkcckhobaglndicnbbgbonegd,ggkkehgbnfjpeggfpleeakpidbkibbmn,jamhcnnkihinmdlkakkaopbjbbcngflc,ojhpjlocmbogdgmfpkhlaaeamibhnphh,jflhchccmppkfebkiaminageehmchikm,eeigpngbgcognadeebkilcpcaedhellh,gonpemdgkjcecdgbnaabipppbmgfggbe\r\n"
+							"X-Goog-Update-Interactivity: bg\r\n"
+							"X-Goog-Update-Updater: chrome-121.0.6167.161\r\n"
+							"Content-Type: application/json\r\n"
+							"Sec-Fetch-Site: none\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: empty\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:1145]{ "HTTP/1.1 200 OK\r\n"
+							"Content-Security-Policy: script-src 'report-sample' 'nonce-dTKXSb95jx--kcBXBVvu_w' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1\r\n"
+							"Cache-Control: no-cache, no-store, max-age=0, must-revalidate\r\n"
+							"Pragma: no-cache\r\n"
+							"Expires: Mon, 01 Jan 1990 00:00:00 GMT\r\n"
+							"Date: Mon, 12 Feb 2024 10:52:37 GMT\r\n"
+							"X-Cup-Server-Proof: 30440220501bafbeefbaf7fa7360e86b15afbcb2a7f39cab12b3a28b5f020c2de21e6d03022078967f8f4f01cf9ac48a3e701b48a8d8d150468640a5bae3d5bf4224c7e98752:230a4e504807b4302a076fbcf0d0398543ad298e25c014f07946f55b9e797259\r\n"
+							"ETag: W/""30440220501bafbeefbaf7fa7360e86b15afbcb2a7f39cab12b3a28b5f020c2de21e6d03022078967f8f4f01cf9ac48a3e701b48a8d8d150468640a5bae3d5bf4224c7e98752:230a4e504807b4302a076fbcf0d0398543ad298e25c014f07946f55b9e797259""\r\n"
+							"Content-Type: application/json; charset=utf-8\r\n"
+							"X-Daynum: 6251\r\n"
+							"X-Daystart: 10357\r\n"
+							"Content-Encoding: gzip\r\n"
+							"X-Content-Type-Options: nosniff\r\n"
+							"X-Frame-Options: SAMEORIGIN\r\n"
+							"X-XSS-Protection: 1; mode=block\r\n"
+							"Server: GSE\r\n"
+							"Alt-Svc: h3="":443""; ma=2592000,h3-29="":443""; ma=2592000\r\n"
+							"Transfer-Encoding: chunked\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->1333
+Argument#  7  OUT : [hdr_buflen] = ->1145
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\rqst_013_001.dat" }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_013_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->69
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    90]------------------------------------------------------------------------------
+Api Event (85)      : Id=HTTP Proc=2e5c:800d50c9  Start=1193218  End=1193218  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->1019
+Argument#  3  OUT : [buflen] = ->1019
+Return Value      : (void)
+
+[Op#:    91]------------------------------------------------------------------------------
+Api Event (86)      : Id=HTTP Proc=2e5c:800d50c9  Start=1193218  End=1193234  Duration=16 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 13
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->5
+Argument#  3  OUT : [buflen] = ->5
+Return Value      : (void)
+
+[Op#:    92]------------------------------------------------------------------------------
+Comment             :  enter detaila and submit 
+
+[Op#:    93]------------------------------------------------------------------------------
+Api Event (87)      : Id=HTTP Proc=2e5c:800d10ce  Start=1230109  End=1230109  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 6
+Argument#  3  IN  : [buflen] = ->1251
+Argument#  3  OUT : [buflen] = ->1251
+Return Value      : (void)
+
+[Op#:    94]------------------------------------------------------------------------------
+Api Event (88)      : Id=HTTP Proc=2e5c:80009006  Start=1229812  End=1230109  Duration=297 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 6
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:691]{ "POST /users HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"Content-Length: 84\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Content-Type: application/json\r\n"
+							"Accept: */*\r\n"
+							"Origin: https://thinking-tester-contact-list.herokuapp.com\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: cors\r\n"
+							"Sec-Fetch-Dest: empty\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/addUser\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:981]{ "HTTP/1.1 201 Created\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735194&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RbIGtd2EtRjvFJDzLVPf4NhY0zWAsEo5bfVGXmN6sEQ%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735194&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RbIGtd2EtRjvFJDzLVPf4NhY0zWAsEo5bfVGXmN6sEQ%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs; Max-Age=684; Path=/; Expires=Mon, 12 Feb 2024 11:04:38 GMT\r\n"
+							"Content-Type: application/json; charset=utf-8\r\n"
+							"Content-Length: 270\r\n"
+							"Etag: W/""10e-RR5EEucawf6ZqWF20FQ5TcSfXIE""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:14 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->691
+Argument#  7  OUT : [hdr_buflen] = ->981
+Argument#  8  IN  : [body_buffer] = ->Array[0:84]{ "{""firstName"":""poi"",""lastName"":""asd"",""email"":""poi@gmail.com"",""password"":""9876543210""}" }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->84
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_009_006.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    95]------------------------------------------------------------------------------
+Api Event (89)      : Id=HTTP Proc=2e5c:800d10cf  Start=1230390  End=1230390  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 7
+Argument#  3  IN  : [buflen] = ->1589
+Argument#  3  OUT : [buflen] = ->1589
+Return Value      : (void)
+
+[Op#:    96]------------------------------------------------------------------------------
+Api Event (90)      : Id=HTTP Proc=2e5c:80009007  Start=1230140  End=1230390  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 7
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:938]{ "GET /contactList HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-User: ?1\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/addUser\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:740]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735194&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RbIGtd2EtRjvFJDzLVPf4NhY0zWAsEo5bfVGXmN6sEQ%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735194&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RbIGtd2EtRjvFJDzLVPf4NhY0zWAsEo5bfVGXmN6sEQ%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Content-Type: text/html; charset=utf-8\r\n"
+							"Content-Length: 849\r\n"
+							"Etag: W/""351-itJOrudI8E+WV8omG2fQk0XDgjE""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:14 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->938
+Argument#  7  OUT : [hdr_buflen] = ->740
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_009_007.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    97]------------------------------------------------------------------------------
+Api Event (91)      : Id=HTTP Proc=2e5c:800d10d0  Start=1230656  End=1230656  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 8
+Argument#  3  IN  : [buflen] = ->794
+Argument#  3  OUT : [buflen] = ->794
+Return Value      : (void)
+
+[Op#:    98]------------------------------------------------------------------------------
+Api Event (92)      : Id=HTTP Proc=2e5c:80009008  Start=1230421  End=1230656  Duration=235 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 8
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:860]{ "GET /css/styles.css HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"If-None-Match: W/""391-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: text/css,*/*;q=0.1\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: style\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/contactList\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:794]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735194&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RbIGtd2EtRjvFJDzLVPf4NhY0zWAsEo5bfVGXmN6sEQ%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735194&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RbIGtd2EtRjvFJDzLVPf4NhY0zWAsEo5bfVGXmN6sEQ%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""391-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:14 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->860
+Argument#  7  OUT : [hdr_buflen] = ->794
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:    99]------------------------------------------------------------------------------
+Api Event (93)      : Id=HTTP Proc=2e5c:800d20c9  Start=1230656  End=1230671  Duration=15 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->795
+Argument#  3  OUT : [buflen] = ->795
+Return Value      : (void)
+
+[Op#:   100]------------------------------------------------------------------------------
+Api Event (94)      : Id=HTTP Proc=2e5c:8000a001  Start=1230421  End=1230671  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:919]{ "GET /img/thinkingTesterLogo.png HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"If-None-Match: W/""31ae-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/contactList\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:795]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735194&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RbIGtd2EtRjvFJDzLVPf4NhY0zWAsEo5bfVGXmN6sEQ%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735194&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RbIGtd2EtRjvFJDzLVPf4NhY0zWAsEo5bfVGXmN6sEQ%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""31ae-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:14 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->919
+Argument#  7  OUT : [hdr_buflen] = ->795
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   101]------------------------------------------------------------------------------
+Api Event (95)      : Id=HTTP Proc=2e5c:800d30c9  Start=1230671  End=1230671  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [buflen] = ->4700
+Argument#  3  OUT : [buflen] = ->4700
+Return Value      : (void)
+
+[Op#:   102]------------------------------------------------------------------------------
+Api Event (96)      : Id=HTTP Proc=2e5c:8000b001  Start=1230421  End=1230671  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 1
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:763]{ "GET /js/contactList.js HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: */*\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: script\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/contactList\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:840]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735194&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RbIGtd2EtRjvFJDzLVPf4NhY0zWAsEo5bfVGXmN6sEQ%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735194&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RbIGtd2EtRjvFJDzLVPf4NhY0zWAsEo5bfVGXmN6sEQ%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""f14-17aa2a80818""\r\n"
+							"Content-Type: application/javascript; charset=UTF-8\r\n"
+							"Content-Length: 3860\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:14 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->763
+Argument#  7  OUT : [hdr_buflen] = ->840
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_011_001.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   103]------------------------------------------------------------------------------
+Api Event (97)      : Id=HTTP Proc=2e5c:800d20ca  Start=1230921  End=1230937  Duration=16 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->794
+Argument#  3  OUT : [buflen] = ->794
+Return Value      : (void)
+
+[Op#:   104]------------------------------------------------------------------------------
+Api Event (98)      : Id=HTTP Proc=2e5c:8000a002  Start=1230687  End=1230937  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:918]{ "GET /img/thinkingTesterIcon.png HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/contactList\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"If-None-Match: W/""495-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:794]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735195&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=aziwA3kBOYbzc1HaECegtPw15p0SzEl5ub9Dxu8eX0Q%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735195&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=aziwA3kBOYbzc1HaECegtPw15p0SzEl5ub9Dxu8eX0Q%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""495-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:15 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->918
+Argument#  7  OUT : [hdr_buflen] = ->794
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   105]------------------------------------------------------------------------------
+Api Event (99)      : Id=HTTP Proc=2e5c:800d30ca  Start=1230937  End=1230937  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [buflen] = ->745
+Argument#  3  OUT : [buflen] = ->745
+Return Value      : (void)
+
+[Op#:   106]------------------------------------------------------------------------------
+Api Event (100)     : Id=HTTP Proc=2e5c:8000b002  Start=1230687  End=1230937  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 2
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:955]{ "GET /contacts HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"Content-Type: application/json\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: */*\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: cors\r\n"
+							"Sec-Fetch-Dest: empty\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/contactList\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:743]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735195&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=aziwA3kBOYbzc1HaECegtPw15p0SzEl5ub9Dxu8eX0Q%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735195&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=aziwA3kBOYbzc1HaECegtPw15p0SzEl5ub9Dxu8eX0Q%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Content-Type: application/json; charset=utf-8\r\n"
+							"Content-Length: 2\r\n"
+							"Etag: W/""2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:15 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->955
+Argument#  7  OUT : [hdr_buflen] = ->743
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_011_002.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   107]------------------------------------------------------------------------------
+Comment             :  click on logout 
+
+[Op#:   108]------------------------------------------------------------------------------
+Api Event (101)     : Id=WPLUS Proc=2e5c:2718  Start=1258828  End=1258828  Duration=0 msec
+Operation Name      : wplus_close
+Argument#  1  IN  : [session_id] = 12
+Return Value      : (void)
+
+[Op#:   109]------------------------------------------------------------------------------
+Api Event (102)     : Id=HTTP Proc=2e5c:800d30cb  Start=1259078  End=1259078  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [buflen] = ->985
+Argument#  3  OUT : [buflen] = ->985
+Return Value      : (void)
+
+[Op#:   110]------------------------------------------------------------------------------
+Api Event (103)     : Id=HTTP Proc=2e5c:8000b003  Start=1258828  End=1259078  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:937]{ "GET /logout HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-User: ?1\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/contactList\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:751]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Content-Type: text/html; charset=utf-8\r\n"
+							"Content-Length: 234\r\n"
+							"Etag: W/""ea-fH4MjO9GSYtzYw0sEjuDFF4h/Oc""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:43 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->937
+Argument#  7  OUT : [hdr_buflen] = ->751
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_011_003.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   111]------------------------------------------------------------------------------
+Api Event (104)     : Id=HTTP Proc=2e5c:800d20cb  Start=1259359  End=1259359  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [buflen] = ->1194
+Argument#  3  OUT : [buflen] = ->1194
+Return Value      : (void)
+
+[Op#:   112]------------------------------------------------------------------------------
+Api Event (105)     : Id=HTTP Proc=2e5c:8000a003  Start=1259109  End=1259359  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 3
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:753]{ "GET /js/logout.js HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: */*\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: script\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/logout\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:851]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""157-17aa2a80818""\r\n"
+							"Content-Type: application/javascript; charset=UTF-8\r\n"
+							"Content-Length: 343\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:43 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->753
+Argument#  7  OUT : [hdr_buflen] = ->851
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:69]{ "D:\\LR Scripts\\Casestudy\\thinking_tester\\data\\http.db\\resp_010_003.dat" }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->69
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   113]------------------------------------------------------------------------------
+Api Event (106)     : Id=HTTP Proc=2e5c:800d30cc  Start=1259359  End=1259359  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->806
+Argument#  3  OUT : [buflen] = ->806
+Return Value      : (void)
+
+[Op#:   114]------------------------------------------------------------------------------
+Api Event (107)     : Id=HTTP Proc=2e5c:8000b004  Start=1259109  End=1259359  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:855]{ "GET /css/styles.css HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"If-None-Match: W/""391-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: text/css,*/*;q=0.1\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: style\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/logout\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:806]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""391-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:43 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->855
+Argument#  7  OUT : [hdr_buflen] = ->806
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   115]------------------------------------------------------------------------------
+Api Event (108)     : Id=HTTP Proc=2e5c:800d30cd  Start=1259625  End=1259625  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [buflen] = ->806
+Argument#  3  OUT : [buflen] = ->806
+Return Value      : (void)
+
+[Op#:   116]------------------------------------------------------------------------------
+Api Event (109)     : Id=HTTP Proc=2e5c:8000b005  Start=1259375  End=1259625  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:913]{ "GET /img/thinkingTesterIcon.png HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/logout\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"If-None-Match: W/""495-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:806]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""495-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:43 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->913
+Argument#  7  OUT : [hdr_buflen] = ->806
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   117]------------------------------------------------------------------------------
+Api Event (110)     : Id=HTTP Proc=2e5c:800d20cc  Start=1259625  End=1259625  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [buflen] = ->667
+Argument#  3  OUT : [buflen] = ->667
+Return Value      : (void)
+
+[Op#:   118]------------------------------------------------------------------------------
+Api Event (111)     : Id=HTTP Proc=2e5c:8000a004  Start=1259375  End=1259625  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 4
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:1002]{ "POST /users/logout HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"Content-Length: 0\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: */*\r\n"
+							"Origin: https://thinking-tester-contact-list.herokuapp.com\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: cors\r\n"
+							"Sec-Fetch-Dest: empty\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/logout\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:667]{ "HTTP/1.1 200 OK\r\n"
+							"Server: Cowboy\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:43 GMT\r\n"
+							"Content-Length: 0\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->1002
+Argument#  7  OUT : [hdr_buflen] = ->667
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   119]------------------------------------------------------------------------------
+Api Event (112)     : Id=HTTP Proc=2e5c:800d20cd  Start=1259890  End=1259890  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [buflen] = ->720
+Argument#  3  OUT : [buflen] = ->720
+Return Value      : (void)
+
+[Op#:   120]------------------------------------------------------------------------------
+Api Event (113)     : Id=HTTP Proc=2e5c:8000a005  Start=1259656  End=1259890  Duration=234 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 5
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:958]{ "GET / HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Upgrade-Insecure-Requests: 1\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: navigate\r\n"
+							"Sec-Fetch-Dest: document\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/logout\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"If-None-Match: W/""517-dgrTykhOUWR7EM+tHUWOgXdTCM4""\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:720]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735223&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FQZAjLeOA6Bk3iao6XKmLKvWTbOuY6%2BHmolcIkB%2F%2BM8%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Etag: W/""517-dgrTykhOUWR7EM+tHUWOgXdTCM4""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:43 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->958
+Argument#  7  OUT : [hdr_buflen] = ->720
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   121]------------------------------------------------------------------------------
+Api Event (114)     : Id=HTTP Proc=2e5c:800d20ce  Start=1260156  End=1260156  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 6
+Argument#  3  IN  : [buflen] = ->798
+Argument#  3  OUT : [buflen] = ->798
+Return Value      : (void)
+
+[Op#:   122]------------------------------------------------------------------------------
+Api Event (115)     : Id=HTTP Proc=2e5c:8000a006  Start=1259921  End=1260171  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 10
+Argument#  2  IN  : [http_id] = 6
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:849]{ "GET /css/styles.css HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"If-None-Match: W/""391-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: text/css,*/*;q=0.1\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: style\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:798]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735224&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RUf8u0zE5IHAPnNE2Fc%2FYjMLK9l2zsjX3oZisXWxujw%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735224&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RUf8u0zE5IHAPnNE2Fc%2FYjMLK9l2zsjX3oZisXWxujw%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""391-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:44 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->849
+Argument#  7  OUT : [hdr_buflen] = ->798
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   123]------------------------------------------------------------------------------
+Api Event (116)     : Id=HTTP Proc=2e5c:800d10d1  Start=1260171  End=1260171  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 9
+Argument#  3  IN  : [buflen] = ->798
+Argument#  3  OUT : [buflen] = ->798
+Return Value      : (void)
+
+[Op#:   124]------------------------------------------------------------------------------
+Api Event (117)     : Id=HTTP Proc=2e5c:80009009  Start=1259921  End=1260171  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 9
+Argument#  2  IN  : [http_id] = 9
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:832]{ "GET /js/login.js HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"If-None-Match: W/""38b-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: */*\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: script\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:798]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735224&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RUf8u0zE5IHAPnNE2Fc%2FYjMLK9l2zsjX3oZisXWxujw%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735224&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RUf8u0zE5IHAPnNE2Fc%2FYjMLK9l2zsjX3oZisXWxujw%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""38b-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:44 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->832
+Argument#  7  OUT : [hdr_buflen] = ->798
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   125]------------------------------------------------------------------------------
+Api Event (118)     : Id=HTTP Proc=2e5c:800d30ce  Start=1260171  End=1260171  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 6
+Argument#  3  IN  : [buflen] = ->799
+Argument#  3  OUT : [buflen] = ->799
+Return Value      : (void)
+
+[Op#:   126]------------------------------------------------------------------------------
+Api Event (119)     : Id=HTTP Proc=2e5c:8000b006  Start=1259921  End=1260171  Duration=250 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 6
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:908]{ "GET /img/thinkingTesterLogo.png HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"If-None-Match: W/""31ae-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:799]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735224&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RUf8u0zE5IHAPnNE2Fc%2FYjMLK9l2zsjX3oZisXWxujw%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735224&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RUf8u0zE5IHAPnNE2Fc%2FYjMLK9l2zsjX3oZisXWxujw%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""31ae-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:44 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->908
+Argument#  7  OUT : [hdr_buflen] = ->799
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   127]------------------------------------------------------------------------------
+Api Event (120)     : Id=HTTP Proc=2e5c:800d30cf  Start=1260437  End=1260437  Duration=0 msec
+Operation Name      : wplus_http_wsock_res_buf
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 7
+Argument#  3  IN  : [buflen] = ->798
+Argument#  3  OUT : [buflen] = ->798
+Return Value      : (void)
+
+[Op#:   128]------------------------------------------------------------------------------
+Api Event (121)     : Id=HTTP Proc=2e5c:8000b007  Start=1260203  End=1260437  Duration=234 msec
+Operation Name      : wplus_http_wsock_request_ex
+Argument#  1  IN  : [session_id] = 11
+Argument#  2  IN  : [http_id] = 7
+Argument#  3  IN  : [ipaddress] = 54.83.6.65 (41065336)
+Argument#  4  IN  : [portnum] = 443
+Argument#  5  IN  : [urladdress] = ""
+Argument#  6  IN  : [hdr_buffer] = ->Array[0:907]{ "GET /img/thinkingTesterIcon.png HTTP/1.1\r\n"
+							"Host: thinking-tester-contact-list.herokuapp.com\r\n"
+							"Connection: keep-alive\r\n"
+							"sec-ch-ua: ""Not A(Brand"";v=""99"", ""Google Chrome"";v=""121"", ""Chromium"";v=""121""\r\n"
+							"sec-ch-ua-mobile: ?0\r\n"
+							"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36\r\n"
+							"sec-ch-ua-platform: ""Windows""\r\n"
+							"Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n"
+							"Sec-Fetch-Site: same-origin\r\n"
+							"Sec-Fetch-Mode: no-cors\r\n"
+							"Sec-Fetch-Dest: image\r\n"
+							"Referer: https://thinking-tester-contact-list.herokuapp.com/\r\n"
+							"Accept-Encoding: gzip, deflate, br\r\n"
+							"Accept-Language: en-GB,en;q=0.9\r\n"
+							"Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWM5Zjg5YWUxNTlkZTAwMTNmYTk2ZmMiLCJpYXQiOjE3MDc3MzUxOTR9.cNAedDlXFReI63EOq7wNVHRgZYmwtSMvM2ykJmCxLKs\r\n"
+							"If-None-Match: W/""495-17aa2a80818""\r\n"
+							"If-Modified-Since: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"\r\n"
+							"" }
+Argument#  6  OUT : [hdr_buffer] = ->Array[0:798]{ "HTTP/1.1 304 Not Modified\r\n"
+							"Server: Cowboy\r\n"
+							"Content-Length: 0\r\n"
+							"Report-To: {""group"":""heroku-nel"",""max_age"":3600,""endpoints"":[{""url"":""https://nel.heroku.com/reports?ts=1707735224&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RUf8u0zE5IHAPnNE2Fc%2FYjMLK9l2zsjX3oZisXWxujw%3D""}]}\r\n"
+							"Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1707735224&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RUf8u0zE5IHAPnNE2Fc%2FYjMLK9l2zsjX3oZisXWxujw%3D\r\n"
+							"Nel: {""report_to"":""heroku-nel"",""max_age"":3600,""success_fraction"":0.005,""failure_fraction"":0.05,""response_headers"":[""Via""]}\r\n"
+							"Connection: keep-alive\r\n"
+							"X-Powered-By: Express\r\n"
+							"Accept-Ranges: bytes\r\n"
+							"Cache-Control: public, max-age=0\r\n"
+							"Last-Modified: Wed, 14 Jul 2021 01:35:59 GMT\r\n"
+							"Etag: W/""495-17aa2a80818""\r\n"
+							"Date: Mon, 12 Feb 2024 10:53:44 GMT\r\n"
+							"Via: 1.1 vegur\r\n"
+							"\r\n"
+							"" }
+Argument#  7  IN  : [hdr_buflen] = ->907
+Argument#  7  OUT : [hdr_buflen] = ->798
+Argument#  8  IN  : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  8  OUT : [body_buffer] = ->Array[0:0]{ NULL }
+Argument#  9  IN  : [body_buflen] = ->0
+Argument#  9  OUT : [body_buflen] = ->0
+Argument# 10  IN  : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 10  OUT : [body_filename] = ->Array[0:0]{ NULL }
+Argument# 11  IN  : [body_filelen] = ->0
+Argument# 11  OUT : [body_filelen] = ->0
+Argument# 12  IN  : [flags] = ->1
+Argument# 12  OUT : [flags] = ->1
+Argument# 13  IN  : [sourceipaddress] = 172.19.61.26 (1a3d13ac)
+Argument# 14  IN  : [sourceportnum] = 9933
+Return Value      : (void)
+
+[Op#:   129]------------------------------------------------------------------------------
+Record Section      : vuser_end
+
+[Op#:   130]------------------------------------------------------------------------------
+End Record          : END
+
+------------------------------------------------------------------------------------------

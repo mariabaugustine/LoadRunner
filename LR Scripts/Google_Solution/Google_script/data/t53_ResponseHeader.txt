@@ -1,0 +1,8 @@
+HTTP/1.1 204 No Content
+Date: Mon, 05 Feb 2024 10:18:06 GMT
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: https://www.microfocus.com
+

@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/images-tbn
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="images-tbn"
+Report-To: {"group":"images-tbn","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/images-tbn"}]}
+Content-Length: 1976
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Date: Mon, 05 Feb 2024 01:42:11 GMT
+Expires: Tue, 04 Feb 2025 01:42:11 GMT
+Cache-Control: public, max-age=31536000
+Age: 31138
+Last-Modified: Fri, 12 Aug 2016 15:43:50 GMT
+Content-Type: image/jpeg
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

@@ -1,0 +1,26 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: addUser",
+                "infFile": "t2.inf",
+                "time": 1707734291561
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: json",
+                "infFile": "t3.inf",
+                "time": 1707734292026
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: users",
+                "infFile": "t4.inf",
+                "time": 1707734292357
+            }
+        ],
+        "transactions": []
+    }
+]

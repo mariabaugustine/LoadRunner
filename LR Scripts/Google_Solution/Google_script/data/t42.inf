@@ -1,0 +1,15 @@
+[t42]
+FileName1=t42_config.json
+URL1=https://c.go-mpulse.net/api/config.json?key=5KNJK-8UTBJ-V9LAY-HLX72-YR7DF&d=www.microfocus.com&t=5690426&v=1.720.0&if=&sl=0&si=af1a665e-a982-413b-a63f-ccaa4d1d6bb2-s8do5h&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN&acao=&ak.ai=492776
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_42.xml
+RequestHeaderFile=t42_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t42_ResponseHeader.txt
+FileName2=t42_events.html
+URL2=https://tags.srv.stackadapt.com/events.js
+FileName3=t42_sa.css
+URL3=https://tags.srv.stackadapt.com/sa.css
+[ProtocolInfo]
+ProtocolId=QTWeb

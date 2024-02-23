@@ -1,0 +1,11 @@
+[t22]
+FileName1=t22.htm
+URL1=https://www.google.com/gen_204?atyp=i&ei=1rTAZZiLJqiQ4-EP4YCUqAM&dt19=2&zx=1707127466098&opi=89978449
+Total=1
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_22.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,12 @@
+[hosts]
+www.gstatic.com=
+clientservices.googleapis.com=
+content-autofill.googleapis.com=
+apis.google.com=
+play.google.com=
+update.googleapis.com=
+safebrowsing.googleapis.com=
+ogs.google.com=
+fonts.gstatic.com=
+katalon-demo-cura.herokuapp.com=
+fonts.googleapis.com=

@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Last-Modified: Fri, 15 Dec 2023 00:01:16 GMT
+Strict-Transport-Security: max-age=86400;includeSubDomains;preload
+X-Oracle-Dms-Ecid: 9c176e01-e9e8-491c-8061-08ce2b3518ed-0037cc3c
+X-Oracle-Dms-Rid: 0
+X-Akamai-Transformed: 9 - 0 pmb=mRUM,2
+Content-Encoding: gzip
+Cache-Control: max-age=1296000
+Date: Mon, 05 Feb 2024 10:21:18 GMT
+Content-Length: 275
+Connection: keep-alive
+Vary: Accept-Encoding
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Akamai-GRN: 0.2c01c045.1707128478.18e76f1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1
+Set-Cookie: bm_sv=2C6B7B5B617F0A0601239410C0178324~YAAQLAHARarHyWGNAQAAs1vJeBa8edoJ5XgMlnR9qmkoJbv76bygk3adrnkWW+K4ATeG48wwgQMBi/XR+nPtrSIpK+Cdq/YOFKM2S1M4H1o/2CQGuL9r7g4HL7QG7j0LHK8c/j7Dil/hABLbk3eKX2na41dC8tKv70MnidDUjnvXQjZQyhXVUePUFO3Bb9zl2QQoJlcrNaAVH//X6qV0y0aa33ToTLe9LqeeZI20MvucLOdP0ZzLIe66wW+JxA==~1; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 12:21:17 GMT; Max-Age=7199; Secure
+Server-Timing: ak_p; desc="1707128478613_1170211116_26113777_24_12113_93_0_-";dur=1
+

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 0
+Date: Mon, 05 Feb 2024 10:21:17 GMT
+Connection: keep-alive
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=2
+Akamai-GRN: 0.2c01c045.1707128477.18e76a6
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1
+Set-Cookie: ak_bmsc=CB969FC4D1316906CEE9C26A690C9963~000000000000000000000000000000~YAAQLAHARaXHyWGNAQAAE1nJeBYiIy/NVdW6CEJCEOidaoxbBHZ3exPAc0mDJgzsAQ9NTSV8+qJgZrYWajaToKfMlsKJQyKqO0grMNTYxxpVzlLeCpz7JydbVrWMHz2qbokDLkmRVvrHjAZS7qP3UYQYDmpxqyUaZ1y9x+gEpek7yl4W1WM8+Sx/heFrfIZ1Xi4U1tHY2lgMDnVhpF5GhagVSyK0sEZHC7JpiCqYLjvdq1jsQAHHuTWH0R379dHHMts6h7VuUgtZiXD+45bzCE/5lbBLIsTSifx3c8knVOtiG9BP8WNzScj1MyjLH0NdeaSMYbY0ZRTsANpPTtg2wsSDg7sIaHBHcxt0J5oZzxKdUwU/D7u1tqDkW3VJWcf7akVC7KTwRTCh8fEVmxm0PKJ/ROksShiF35OXYI+i++0X4/cnMwx4oMt2CwX+CVLAM8rqokYbxdv7qj/5ip+aqIYAjnTAlaxxWVbf0mL81eU=; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 12:21:14 GMT; Max-Age=7197; HttpOnly
+Server-Timing: ak_p; desc="1707128477960_1170211116_26113702_212_9142_52_0_-";dur=1
+

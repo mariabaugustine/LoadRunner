@@ -1,0 +1,11 @@
+[t27]
+FileName1=t27.htm
+URL1=https://www.google.com/gen_204?atyp=i&ei=1rTAZZiLJqiQ4-EP4YCUqAM&vp-aft=1&vp-aftasync=1&zx=1707127466762&opi=89978449
+Total=1
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t27_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_27.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

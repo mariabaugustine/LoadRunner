@@ -1,0 +1,11 @@
+[t6]
+FileName1=t6.htm
+URL1=https://www.google.com/gen_204?atyp=i&ei=rLTAZb3MNtW44-EPuee00Aw&ved=0ahUKEwi90oyn-5OEAxVV3DgGHbkzDcoQ39UDCAQ&bl=h9bn&s=webhp&zx=1707127458146&opi=89978449
+Total=1
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_6.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

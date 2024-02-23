@@ -1,0 +1,26 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: dynamicid",
+                "infFile": "t3.inf",
+                "time": 1707454591181
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: json",
+                "infFile": "t4.inf",
+                "time": 1707454591584
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: dynamictable",
+                "infFile": "t5.inf",
+                "time": 1707454592246
+            }
+        ],
+        "transactions": []
+    }
+]

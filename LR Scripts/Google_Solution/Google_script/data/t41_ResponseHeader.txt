@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Server: nginx
+X-Powered-By: Express
+Pragma: no-cache
+X-Robots-Tag: noindex
+ETag: W/"2e64b-LcXTGUHHfu148+pkgP6hhuga60s"
+X-page-origin: pnx
+X-Frame-Options: SAMEORIGIN
+X-UA-Compatible: IE=edge
+X-Content-Type-Options: nosniff
+Content-Security-Policy: frame-src self *.microfocus.com *.ubembed.com https://12964123.fls.doubleclick.net/ https://js.driftt.com https://bid.g.doubleclick.net https://optimize.google.com/ https://dev.visualwebsiteoptimizer.com https://www.facebook.com/ https://www.google.com/ https://www.youtube.com/ https://www.brighttalk.com/ https://bcove.video/ https://app.vwo.com https://www.googletagmanager.com https://microfocuspartner.force.com https://www.linkedin.com/ https://platform.twitter.com/ https://www.research.net https://irs.tools.investis.com/ https://players.brightcove.net/ https://otp.tools.investis.com/ https://microfocus-education.sabacloud.com https://recaptcha.net https://html5-player.libsyn.com/ http://demo.havendemo.com/ https://open.spotify.com https://player.vimeo.com/; frame-ancestors self *.microfocus.com https://microfocus.lookbookhq.com https://microfocus-education.sabacloud.com https://recaptcha.net https://microfocuspartner.force.com;
+Content-Encoding: gzip
+Content-Length: 32215
+Vary: Accept-Encoding
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Mon, 05 Feb 2024 10:17:38 GMT
+Date: Mon, 05 Feb 2024 10:17:38 GMT
+Connection: keep-alive
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Strict-Transport-Security: max-age=15768000 ; preload
+Server-Timing: ak_p; desc="1707128258542_1170211109_72236340_74_9460_9_0_-";dur=1
+

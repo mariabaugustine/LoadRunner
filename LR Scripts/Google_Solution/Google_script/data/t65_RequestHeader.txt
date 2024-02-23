@@ -1,0 +1,17 @@
+GET /_cache_9e50/en_structure.json HTTP/1.1
+Host: www.java.com
+Connection: keep-alive
+sec-ch-ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+X-Oracle-Ocm-App-Key: o:9aa0cf148cef44caa4c3ea7282314f3d
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.java.com/en/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Cookie: AKA_A2=A; akaalb_OCE_Failover=1707128534~op=JCOM_OCE:oceProdappJcomProdOrigin|~rv=81~m=oceProdappJcomProdOrigin:0|~os=2708f36cb43ca861e42dc0215e4669c5~id=4d44549a107e7f841bf61be98404d12a; ak_bmsc=CB969FC4D1316906CEE9C26A690C9963~000000000000000000000000000000~YAAQLAHARZ3HyWGNAQAAX03JeBZXNShVShQ3j/L5jmQ4L+pRh9/2J7nsESSkxrOUsrN4losja31eo1uDpYRgORcnqbYtlUENon9xVgXOJqRrrwEs3WaHe7QSHArIa7VI1hHDQ8Xl4nssBfDnPvY/Pn8+ehAdNcr/Qn3kzKmnqnd9K5lYH/bWFb9D1hiwlrCHGETYKDOSIK1SgzaP11hGMV4xKAOsGqfoSl4Ze9NbCtSp9wTm5fO+3z0e8kC746dV8+8OMI8wKTbBcxS7hvQScSfI9Fwke9iyGkmwJz/WesHhq08is2SU3Td0YRCLzXsG0oXDtVJGmYJ8oCfUnGpnDW1qQbpe2ecicXLpQVnmro8bCOC5NbHx4eUAQ1uvXReN6dV+s3ltjBHIqGrgI1Os++ATjGkMoASBsjAb5zXP643qzETpDQD3JVB/lAnaTRkahoqrAOP1nysX
+

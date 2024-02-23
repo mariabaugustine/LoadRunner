@@ -1,0 +1,22 @@
+HTTP/2.0 200
+Status: 200
+content-type: application/json
+content-encoding: gzip
+etag: "fee4593a604d0e15afd5781f0b5c1cd2f8165fff7bc85c5124b46130e0e2bca2"
+strict-transport-security: max-age=86400;includeSubDomains;preload
+x-content-type-options: nosniff
+x-oracle-dms-ecid: 3608991d-3b39-4af3-a1c8-17c628dbb4ff-00078c9b
+x-oracle-dms-rid: 0
+content-length: 1982
+cache-control: public, max-age=1296000
+date: Mon, 05 Feb 2024 10:21:51 GMT
+vary: Accept-Encoding
+server-timing: cdn-cache; desc=HIT
+server-timing: edge; dur=1
+akamai-grn: 0.6601c045.1707128511.1c3abcc
+x-content-type-options: nosniff
+x-xss-protection: 1
+set-cookie: bm_mi=A9F92ECE0D42E76BA85B95AF6759A74D~YAAQZgHARVzjtF+NAQAA0trJeBYQ45vVYbwqQIGh7Ip+zzdHq0srdV6W5lI4a7nr49fLAafA0GwT4+Fq8Y8bmWa6TjRSx8fVkHRXvJ8oA8137ktTage4NN3/5gXndxikJ32ZQZTggi+TjkxbZ1MEOTbkAzk8mBbEoGFnAcYr0RpOufqFXqOkb3+pPzl4lKEu+EiKz+8NI+c99zi59nOw6NDteBJe9oztupjIyhxwR2ATWfhhCRPpjqoVZVgf2s/0rbr/7QWwniu4i4MF/UN2YIQnvKjmRad6DDkuR3GU+c+dGPovusy5xRq1Xnhhzi8=~1; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 10:21:51 GMT; Max-Age=0; Secure
+set-cookie: bm_sv=2C6B7B5B617F0A0601239410C0178324~YAAQZgHARV3jtF+NAQAA0trJeBYS4OYUF0wWxm7gB5+OMBNyPK9c98ZY4AKqoSqtN5fHyONzlgA/IMZYjJfLRQ3kZuKUzizCOHYqEgz3u9MHbWoYFn50S5wevTGv7L6zDUV9IypNWAeOFkDfsHQfc0FTodWCEVEfoX8c9g1TgxxSmZUFWQ1O2qtNkWf1cyxBUrSlpyyO3BzKm4eaoRcaRwyLDtfJo5yoQOlbuqXXpp5kmvP9+u26mk3bUNV4Vg==~1; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 12:21:17 GMT; Max-Age=7166; Secure
+server-timing: ak_p; desc="1707128511172_1170211174_29600716_28_13313_13_0_0";dur=1
+

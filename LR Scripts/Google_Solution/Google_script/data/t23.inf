@@ -1,0 +1,15 @@
+[t23]
+FileName1=t23_bgasy.json
+URL1=https://www.google.com/async/bgasy?ei=1rTAZZiLJqiQ4-EP4YCUqAM&opi=89978449&sca_esv=c6ea4b9e8e44c565&yv=3&cs=0&async=_fmt:jspb
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_23.xml
+RequestHeaderFile=t23_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t23_ResponseHeader.txt
+FileName2=t23_m=sy3aq,sy3qa,w4UyN,bBErTe,sy1r2,sy1r3,cNgdQc,sy1r9,sy1ra,xJdv9e,sy1rh,LdB9sd,sy1jk,QKZgZd,sy1jt,sy1ju,Qj0suc,JXS8fb,sy1js,sy1jw,sy1jz,sy1k0,sy1k1,sy1k2,sy1k3,sy1k6,Wct42,sysj,LiBxPe,sy46z,sy6ki,J9Q59e,sy470,a6Sgfb.html
+URL2=https://www.google.com/xjs/_/js/k=xjs.s.en_GB.Q-FVxvKVsrc.O/ck=xjs.s.7TG0kWAnQIU.L.W.O/am=ABAAAAQIAAAAAAAAAAAAAABAAAAAgASCAMIhABsgAL4EAEiAAAABjIFFIUAEwAAAQcDnPwEAAAAAAJiAwAAQLoAUAoMAAAATUAXQDvgAAAAAgv0AMYDAAwIAAMBAfgAKATiAIEABEAAAAEAegOcBcJDCAgAAAAAAAAAAABBAgiAckH5BAAQAAAAAAAAAAAAAUmli5WEAgA/d=0/dg=2/br=1/ujg=1/rs=ACT90oGqTdjmnE1HTEgY9tpQHOBMXWGsLQ/m=sy3aq,sy3qa,w4UyN,bBErTe,sy1r2,sy1r3,cNgdQc,sy1r9,sy1ra,xJdv9e,sy1rh,LdB9sd,sy1jk,QKZgZd,sy1jt,sy1ju,Qj0suc,JXS8fb,sy1js,sy1jw,sy1jz,sy1k0,sy1k1,sy1k2,sy1k3,sy1k6,Wct42,sysj,LiBxPe,sy46z,sy6ki,J9Q59e,sy470,a6Sgfb?xjs=s3
+FileName3=t23_m=WlNQGd,sy1lz,sy1m0,nabPbb,sysx,sysy,syt1,syt2,syt4,syt5,sy3pn,sy6fv,VD4Qme,sy4n1,ND0kmf,sy1jo,sy1jp,uLYJpc,sy1jl,n7qy6d,sy1jn,HPGtmd,sy274,sy275,sy276,KgxeNb,sy278,khkNpe,sy3ap,EfPGub.html
+URL3=https://www.google.com/xjs/_/js/k=xjs.s.en_GB.Q-FVxvKVsrc.O/ck=xjs.s.7TG0kWAnQIU.L.W.O/am=ABAAAAQIAAAAAAAAAAAAAABAAAAAgASCAMIhABsgAL4EAEiAAAABjIFFIUAEwAAAQcDnPwEAAAAAAJiAwAAQLoAUAoMAAAATUAXQDvgAAAAAgv0AMYDAAwIAAMBAfgAKATiAIEABEAAAAEAegOcBcJDCAgAAAAAAAAAAABBAgiAckH5BAAQAAAAAAAAAAAAAUmli5WEAgA/d=0/dg=2/br=1/ujg=1/rs=ACT90oGqTdjmnE1HTEgY9tpQHOBMXWGsLQ/m=WlNQGd,sy1lz,sy1m0,nabPbb,sysx,sysy,syt1,syt2,syt4,syt5,sy3pn,sy6fv,VD4Qme,sy4n1,ND0kmf,sy1jo,sy1jp,uLYJpc,sy1jl,n7qy6d,sy1jn,HPGtmd,sy274,sy275,sy276,KgxeNb,sy278,khkNpe,sy3ap,EfPGub?xjs=s3
+[ProtocolInfo]
+ProtocolId=QTWeb

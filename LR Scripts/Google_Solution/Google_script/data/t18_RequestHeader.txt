@@ -1,0 +1,23 @@
+GET /complete/search?q&cp=0&client=gws-wiz-serp&xssi=t&gs_pcrt=2&hl=en-IN&authuser=0&pq=java&psi=1rTAZZiLJqiQ4-EP4YCUqAM.1707127465146&dpr=1&ofp=GPu5toGhvPnPswEYh96g8O3W1UwY_cq-7p2UvOJLGKGk362F88GTKRiIvYGKkdC5mVg&nolsbt=1 HTTP/1.1
+Host: www.google.com
+Connection: keep-alive
+sec-ch-ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+sec-ch-ua-arch: "x86"
+sec-ch-ua-full-version: "121.0.6167.140"
+sec-ch-ua-platform-version: "10.0.0"
+sec-ch-ua-full-version-list: "Not A(Brand";v="99.0.0.0", "Google Chrome";v="121.0.6167.140", "Chromium";v="121.0.6167.140"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-wow64: ?0
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.google.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Cookie: 1P_JAR=2024-02-05-10; AEC=Ae3NU9Oi7ZBsvA4MHi5K49jhSWBuXlT98B4BDHM4dJ52_evdulduX0pOGg; NID=511=NeOVbTyS9UIqzorIqr-kG7Z7l8iceIe4E3qSLR90imwClSza9tgRwgftIRD1yOAAGLpZC_fcjImcmqqnX-xCMssYHUXAI66Q1r4rlzhX4q5rjbKhZKo8_J5ZzoedWTS7XKOkwRjnFUxAyYdLLe9ycAETLJKc9Ujxip7vy8yQC1aGTyDb43sAKEvygON9A-Z-QZws
+

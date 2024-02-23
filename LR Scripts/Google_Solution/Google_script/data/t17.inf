@@ -1,0 +1,11 @@
+[t17]
+FileName1=t17_search.json
+URL1=https://www.google.com/complete/search?q=java&cp=0&client=desktop-gws-wiz-on-focus-serp&xssi=t&gs_pcrt=3&hl=en-IN&authuser=0&pq=java&psi=1rTAZZiLJqiQ4-EP4YCUqAM.1707127465146&dpr=1&ofp=EAEY-7m2gaG8-c-zARiH3qDw7dbVTBj9yr7unZS84ksYoaTfrYXzwZMpGIi9gYqR0LmZWDKJAQoPCg1qYXZhIGRvd25sb2FkCg8KDWphdmEgdHV0b3JpYWwKCgoIamF2YSBqZGsKCQoHamF2YSAxNwoNCgtvcmFjbGUgamF2YQoTChFqYXZhIGpkayBkb3dubG9hZAoQCg5qYXZhIHczc2Nob29scwoWChRvcmFjbGUgamF2YSBkb3dubG9hZBBH
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_17.xml
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t17_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

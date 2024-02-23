@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/one-google-eng
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy: same-origin; report-to="one-google-eng"
+Report-To: {"group":"one-google-eng","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/one-google-eng"}]}
+Content-Length: 640
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Date: Sat, 03 Feb 2024 06:46:55 GMT
+Expires: Sun, 02 Feb 2025 06:46:55 GMT
+Cache-Control: public, max-age=31536000
+Last-Modified: Mon, 29 Jan 2024 02:35:33 GMT
+Content-Type: text/css; charset=UTF-8
+Vary: Accept-Encoding, Origin
+Age: 185406
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

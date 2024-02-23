@@ -1,0 +1,68 @@
+Virtual User Script started at: 07-02-2024 15:33:38
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LR Scripts\Google_Images_language\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("seed") started  	[MsgId: MMSG-26355]
+Action.c(6): web_url("seed") was successful, 367945 body bytes, 377 header bytes  	[MsgId: MMSG-26386]
+Action.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(16): web_url("katalon-demo-cura.herokuapp.com") started  	[MsgId: MMSG-26355]
+Action.c(16): web_url("katalon-demo-cura.herokuapp.com") was successful, 4234 body bytes, 863 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(25): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(25): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(27): web_url("theme.css") started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_url("theme.css") was successful  	[MsgId: MMSG-26390]
+Action.c(35): web_url("theme.js") started  	[MsgId: MMSG-26355]
+Action.c(35): Registering web_url("theme.js") was successful  	[MsgId: MMSG-26390]
+Action.c(43): web_url("css") started  	[MsgId: MMSG-26355]
+Action.c(43): Registering web_url("css") was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(51): web_concurrent_end was successful, 5707 body bytes, 2255 header bytes  	[MsgId: MMSG-26386]
+Action.c(53): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(53): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(55): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action.c(55): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action.c(57): web_url("header.jpg") started  	[MsgId: MMSG-26355]
+Action.c(57): Registering web_url("header.jpg") was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_url("6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2") started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_url("6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2") was successful  	[MsgId: MMSG-26390]
+Action.c(73): web_url("6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2") started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_url("6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2") was successful  	[MsgId: MMSG-26390]
+Action.c(81): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action.c(81): web_concurrent_end was successful, 408965 body bytes, 2430 header bytes  	[MsgId: MMSG-26386]
+Action.c(87): web_url("Login") started  	[MsgId: MMSG-26355]
+Action.c(87): web_url("Login") was successful, 7261 body bytes, 795 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(98): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(98): web_custom_request("json") was successful, 1662 body bytes, 1085 header bytes  	[MsgId: MMSG-26386]
+Action.c(131): web_submit_data("authenticate.php") started  	[MsgId: MMSG-26355]
+Action.c(131): Redirecting "https://katalon-demo-cura.herokuapp.com/authenticate.php" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(131): To location "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26693]
+Action.c(131): web_submit_data("authenticate.php") was successful, 8280 body bytes, 1652 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(145): web_url("threatListUpdates:fetch") started  	[MsgId: MMSG-26355]
+Action.c(145): web_url("threatListUpdates:fetch") was successful, 97571 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Action.c(159): web_submit_data("appointment.php") started  	[MsgId: MMSG-26355]
+Action.c(159): web_submit_data("appointment.php") was successful, 6651 body bytes, 799 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(175): web_url("ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDASJwm4ouDoPDlzyRIFDWCIu-ISBQ2-6S43EgUNMT2UMCELHZFHpklVVA==") started  	[MsgId: MMSG-26355]
+Action.c(175): Warning -26630: HTTP Status-Code=400 (Bad Request) for "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDASJwm4ouDoPDlzyRIFDWCIu-ISBQ2-6S43EgUNMT2UMCELHZFHpklVVA==?alt=proto"  	[MsgId: MWAR-26630]
+Action.c(175): web_url("ChVDaHJvbWUvMTIxLjAuNjE2Ny4xNDASJwm4ouDoPDlzyRIFDWCIu-ISBQ2-6S43EgUNMT2UMCELHZFHpklVVA==") highest severity level was "warning", 94 body bytes, 370 header bytes  	[MsgId: MMSG-26388]
+Action.c(183): web_url("CURA Healthcare") started  	[MsgId: MMSG-26355]
+Action.c(183): web_url("CURA Healthcare") was successful, 8280 body bytes, 799 header bytes, 19 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(196): web_url("Logout") started  	[MsgId: MMSG-26355]
+Action.c(196): Redirecting "https://katalon-demo-cura.herokuapp.com/authenticate.php?logout" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(196): To location "https://katalon-demo-cura.herokuapp.com/"  	[MsgId: MMSG-26693]
+Action.c(196): web_url("Logout") was successful, 4234 body bytes, 1636 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

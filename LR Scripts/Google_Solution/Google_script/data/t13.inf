@@ -1,0 +1,11 @@
+[t13]
+FileName1=t13.htm
+URL1=https://www.google.com/gen_204?atyp=i&ei=rLTAZb3MNtW44-EPuee00Aw&ct=slh&v=t1&im=M&pv=0.5988358137453018&me=8:1707127446070,V,0,0,0,0:2037,V,0,0,1280,593:4,h,1,1,i:10029,G,1,1,548,209:7,V,0,0,0,0:1103,B,706:4459,e,U&zx=1707127463710&opi=89978449
+Total=1
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_13.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

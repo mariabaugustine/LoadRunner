@@ -1,0 +1,13 @@
+[t51]
+FileName1=t51.html
+URL1=https://u.clarity.ms/collect
+Total=2
+RequestHeaderFile=t51_RequestHeader.txt
+RequestBodyFile=t51_RequestBody.txt
+ResponseHeaderFile=t51_ResponseHeader.txt
+ContentType=application/x-javascript
+SnapshotXmlFile=snapshot_51.xml
+FileName2=t51_obtp.html
+URL2=https://amplify.outbrain.com/cp/obtp.js
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=86400;includeSubDomains;preload
+X-Frame-Options: SAMEORIGIN
+X-Oracle-Dms-Ecid: b947e9f0-b224-4595-beb5-fbde6d7c9e67-005cd44a
+X-Oracle-Dms-Rid: 0
+X-Akamai-Transformed: 9 3164 0 pmb=mTOE,4mRUM,2
+Content-Encoding: gzip
+Cache-Control: max-age=60
+Expires: Mon, 05 Feb 2024 10:22:14 GMT
+Date: Mon, 05 Feb 2024 10:21:14 GMT
+Content-Length: 5514
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: AKA_A2=A; expires=Mon, 05-Feb-2024 11:21:14 GMT; path=/; domain=java.com; secure; HttpOnly
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=27
+Server-Timing: origin; dur=0
+Link: <https://www.oracle.com>;rel="preconnect",<https://c.oracleinfinity.io>;rel="preconnect",<https://dc.oracleinfinity.io>;rel="preconnect"
+Link: <https://static.ocecdn.oraclecloud.com>;rel="preconnect"
+Akamai-GRN: 0.2c01c045.1707128474.18e757f
+Set-Cookie: akaalb_OCE_Failover=1707128534~op=JCOM_OCE:oceProdappJcomProdOrigin|~rv=81~m=oceProdappJcomProdOrigin:0|~os=2708f36cb43ca861e42dc0215e4669c5~id=4d44549a107e7f841bf61be98404d12a; path=/; Expires=Mon, 05 Feb 2024 10:22:14 GMT; Secure; SameSite=None
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1
+Set-Cookie: ak_bmsc=BD4C80BEB6CC02B708DE9880C44B860D~000000000000000000000000000000~YAAQLAHARZvHyWGNAQAATUzJeBZvb9Frv6d1ZDy2MseolrC/shKDqGQddGpcG6d8fw6pQPD0F65ptijxvRJqjFAd3fF4FReaH7xG0Hn4MpmOfej6TRQWbx9iBeeG2FiD5VokV4Yj1M4scdbw2xVE4BqMeUUTJgQDeK3sGbsQM06d8p72lU53VCBvBcsn712y3D642k6UKioQBLmlXbglmR3XQZaF+3NHU43+PRTCoCoL7B8jLY5Cv6AoQM++EXIf+bc0lkloFduftK3xUja7r8HZ26mzVESFrO7kqxvrMClJaSWL+wkwweuN6b1G+IfY1Q0K6rkNnjLU523ebzl4WtCkgw/nnbWbFHu4JAKyfG0k/lvsSF4mYIA=; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 12:21:14 GMT; Max-Age=7200; HttpOnly
+Set-Cookie: bm_mi=8ADB071DFED982DBEBB05C838C7FE9C4~YAAQLAHARZzHyWGNAQAATUzJeBbMBmb4yxx515qKv1QdczMkplqhsv/dh2lFp8cEAGxh/3PecLr1Jn8kEku/ZBefFQpxLotv4gWgim0mn3ClksTIErzOuF1vKLb56TU0E8N7x5KHJsgYwDIHxdmdcyXvXwfB/I3lVnkL7pepW4OdeIrKxFKE3uWfUPuDiU/1+cfKN4H4Y4qBJuqT+L2CdaXjoOSpoZqiX+ya71SMFxOxoLrvjGuDsrzJ/mHidHPI11BPiTCVFIzTdBDLAn/2ysWqpeXfLtAdLZauPMMdVCWloaNptMPyO4F330iaXTM=~1; Domain=.java.com; Path=/; Expires=Mon, 05 Feb 2024 10:21:14 GMT; Max-Age=0; Secure
+Server-Timing: ak_p; desc="1707128474509_1170211116_26113407_2712_165121_12_0_-";dur=1
+
